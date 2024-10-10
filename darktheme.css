@@ -26,14 +26,11 @@ body.dark-theme a {
 
 body.dark-theme nav {
     caret-color: rgba(224, 224, 224, 1);
+    border-bottom: 2px solid rgba(224, 224, 224, 1);
 }
 
 body.dark-theme nav a {
     color: #ffffff;
-}
-
-body.dark-theme .linha {
-    background: #FFF;
 }
 
 body.dark-theme main h1 {

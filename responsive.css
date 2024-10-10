@@ -223,7 +223,7 @@
 
     .nav-right {
         font-size: 1.1rem;
-        left: 70%;
+        left: 85vw;
         margin-top: -1rem;
     }
 
@@ -231,11 +231,6 @@
         width: 2.2rem;
         height: 2.2rem;
         margin-left: -1.5rem;
-    }
-
-    .linha {
-        height: 0.5rem;
-        margin-top: -2rem;
     }
 
     work-info .tags {
