@@ -97,6 +97,10 @@
 }
 
 @media (max-width: 860px) {
+  nav{
+    min-height: 0.5rem;
+  }
+  
     .nav-center {
         display: none;
     }
@@ -205,6 +209,11 @@
 }
 
 @media (max-width: 720px) {
+  nav{
+    padding: 1.2rem 3rem;
+    padding-bottom: 0.4rem;
+  }
+  
     .nav-center {
         display: none;
     }
