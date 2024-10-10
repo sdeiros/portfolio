@@ -223,7 +223,7 @@
 
     .nav-right {
         font-size: 1.1rem;
-        left: 85vw;
+        left: 70%;
         margin-top: -1rem;
     }
 
@@ -318,14 +318,6 @@
         margin-top: 12rem;
     }
 
-    .copyright {
-        font-size: 1.5rem; /* Diminui o tamanho da fonte em telas menores */
-    }
-
-    .copyright p {
-        font-size: 1.5rem; /* Ajusta o tamanho do texto dentro do <p> */
-    }
-
     .habilidades-grid {
         flex-direction: column; /* Empilha os itens verticalmente */
         align-items: center; /* Centraliza os itens na tela */
@@ -336,6 +328,6 @@
     }
 
     html.sr .copyright p {
-        font-size: 1.2rem !important; /* Força a fonte desejada em telas menores */
+        font-size: 0.8rem !important; /* Força a fonte desejada em telas menores */
     }
 }
