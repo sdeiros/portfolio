@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
+    <meta name="msapplication-navbutton-color" content="#FFFFFF">
+
+    <meta name="description"
+        content="Portfólio de Davi Medeiros - Designer Gráfico e Desenvolvedor Web. Confira projetos de design e desenvolvimento criativo.">
+    <meta name="keywords"
+        content="Davi Medeiros, designer gráfico, desenvolvedor web, portfólio, design, desenvolvimento, sdeiros">
+    <meta name="author" content="Davi Medeiros">
+
+    <link href="https://db.onlinewebfonts.com/c/0976a2619014c5855690b7509fab4c6e?family=Helvetica+Now+Display"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css" rel="preload" as="style">
+    <link rel="stylesheet" href="responsive.css" rel="preload" as="style">
+    <link rel="stylesheet" href="darktheme.css" rel="preload" as="style">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Davi Medeiros | Portfólio</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="fav-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav-icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="fav-icon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="fav-icon/android-chrome-512x512.png">
+    <link rel="icon" href="fav-icon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="fav-icon/site.webmanifest">
+</head>
+
+
+<body>
+    <nav>
+        <div class="logo-container">
+            <div class="circles">
+                <div class="circle black"></div>
+                <div class="circle white"></div>
+                <div class="transition" id="transition-effect"></div>
+            </div>
+            <span class="DM">Davi Medeiros</span>
+        </div>
+        <div class="nav-center">Designer Gráfico e Desenvolvedor Web</div>
+        <div class="nav-right"><a href="#sobre-mim">Informações</a></div>
+    </nav>
+
+    <main>
+        <div class="container-h1">
+            <div class="h1-wrapper">
+                <h1>A prática de Design Gráfico e Desenvolvimento Web de Davi Medeiros</h1>
+            </div>
+        </div>
+
+        <div class="carousel-container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="./gil.html" class="work-card">
+                            <img src="assets/poster-gil.png" alt="Premiação Honoris Causa para Gilberto Gil"
+                                loading="lazy">
+                            <div class="work-info">
+                                <h2>Premiação Honoris Causa para Gilberto Gil</h2>
+                                <div class="tags">
+                                    <p>Designer Gráfico</p>
+                                    <p>Estudo</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#" class="work-card">
+                            <img src="assets/poster-apocalipse.png" alt="Projeto Apocalipse" loading="lazy">
+                            <div class="work-info">
+                                <h2>Projeto Apocalipse</h2>
+                                <div class="tags">
+                                    <p>Designer Gráfico</p>
+                                    <p>Front-End</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#" class="work-card">
+                            <img src="assets/CTE.jpg" alt="CTE" loading="lazy">
+                            <div class="work-info">
+                                <h2>Centro de Tecnologia Educacional</h2>
+                                <div class="tags">
+                                    <p>Designer Gráfico</p>
+                                    <p>Social Media</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#" class="work-card">
+                            <img src="assets/outros trabalhos.jpg" alt="Capa para card Outros Trabalhos" loading="lazy">
+                            <div class="work-info-end">
+                                <h2>Outros Trabalhos</h2>
+                                <p>2021 – <span id="current-year"></span></p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <section id="sobre-mim">
+            <div class="sobre-container">
+                <h2>Sobre Mim</h2>
+                <p>Tenho uma sólida formação em Design Gráfico e Animação, mas também sou habilidoso em hardware, o que
+                    me permite atuar em projetos que envolvem tecnologia e suporte técnico. Acredito que a comunicação
+                    clara é a chave para garantir o sucesso dos meus projetos.
+                    Você pode saber mais sobre mim <u><a href="#informacoes" class="botao-link">aqui</a></u>.</p>
+            </div>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="habilidades">
+            <h2>Minhas Habilidades</h2>
+            <div class="habilidades-grid">
+                <div class="habilidade-item">
+                    <h3>Design Gráfico</h3>
+                    <p>Criação de pôsteres, logos, e identidade visual.</p>
+                </div>
+                <div class="habilidade-item">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>HTML, CSS, JavaScript, e responsividade para diversas plataformas.</p>
+                </div>
+                <div class="habilidade-item">
+                    <h3>Software</h3>
+                    <p>Pacote Adobe, Figma, e outros softwares de design e edição de vídeo.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="contato" style="padding: 5rem 2rem; text-align: center;">
+            <h2>Contato</h2>
+            <p style="">Se você deseja entrar em contato, envie um e-mail para <a href="#" onclick="sendEmail()"><br><u>davi.medeiros.silva1@gmail.com</u></p></a>
+        </section>
+
+        <div class="copyright">
+            <p>&copy; 2024 Davi Medeiros. Todos os direitos reservados.</p>
+        </div>
+
+
+        <script>
+            ScrollReveal().reveal('nav', { duration: 1200, origin: 'top', distance: '20px', reset: true });
+            ScrollReveal().reveal('.carousel-container', { duration: 1400, origin: 'right', distance: '50px', reset: true });
+            ScrollReveal().reveal('#sobre-mim', { duration: 1200, origin: 'bottom', distance: '50px', reset: true });
+            ScrollReveal().reveal('#habilidades', { duration: 1200, origin: 'bottom', distance: '50px', reset: true });
+            ScrollReveal().reveal('#contato', { duration: 1200, origin: 'bottom', distance: '50px', reset: true });
+            ScrollReveal().reveal('.container-h1', { duration: 1400, origin: 'right', distance: '50px', reset: true });
+        </script>
+
+
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

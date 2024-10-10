@@ -1,0 +1,112 @@
+body.dark-theme {
+    background-color: #161616;
+    color: #e0e0e0;
+}
+
+body.dark-theme ::selection {
+    background-color: rgba(112, 112, 112, 0.9);
+}
+
+body.dark-theme::-webkit-scrollbar-track {
+    background-color: #161616;
+}
+
+body.dark-theme::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0;
+}
+
+
+body.dark-theme nav {
+    color: #FFF;
+}
+
+body.dark-theme a {
+    color: #FFF;
+}
+
+body.dark-theme nav {
+    caret-color: rgba(224, 224, 224, 1);
+}
+
+body.dark-theme nav a {
+    color: #ffffff;
+}
+
+body.dark-theme .linha {
+    background: #FFF;
+}
+
+body.dark-theme main h1 {
+    color: #e0e0e0;
+}
+
+body.dark-theme .work-card {
+    color: white;
+}
+
+body.dark-theme #sobre-mim {
+    background-color: #161616;
+}
+
+
+body.dark-theme #sobre-mim p {
+    color: #bdbdbd;
+
+}
+
+body.dark-theme #sobre-mim a {
+    color: #bdbdbd;
+
+}
+
+body.dark-theme .sobre-container h2 {
+    color: #e0e0e0;
+
+}
+
+body.dark-theme #habilidades {
+    background-color: #161616;
+    color: white;
+}
+
+body.dark-theme #habilidades h3 {
+    background-color: #161616;
+    color: white;
+}
+
+body.dark-theme #habilidades p {
+    background-color: #161616;
+    color: #e0e0e0;
+}
+
+body.dark-theme #contato h2 {
+    color: white;
+}
+
+body.dark-theme #contato a {
+    color: #e0e0e0;
+}
+
+body.dark-theme #contato p {
+    color: #e0e0e0;
+}
+
+body.dark-theme .DM {
+    color: white;
+}
+
+body.dark-theme .botão-link {
+    color: #555;
+}
+
+body.dark-theme .divider {
+    color: white;
+    background-color: #ffffff;
+    /* Cor da linha */
+}
+
+body.dark-theme .copyright {
+    background-color: #e0e0e0;
+    color: #000;
+}
+

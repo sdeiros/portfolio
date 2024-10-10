@@ -1,0 +1,346 @@
+@media (max-width: 1920px) {
+    nav {
+        font-size: 1.6rem;
+    }
+
+    .nav-right {
+        left: 90.8%;
+    }
+
+    main h1 {
+        width: 90%;
+        margin-top: 10rem;
+        font-size: 9rem;
+        font-weight: 900;
+        line-height: 10rem;
+    }
+
+    .work-card {
+        width: 32rem;
+        height: 48rem;
+        border-radius: 2.4rem;
+    }
+
+    .work-info h2 {
+        font-size: 2.4rem;
+        line-height: 2.2rem;
+    }
+
+    .work-info p {
+        font-size: 1.5rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        margin-top: 45%;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    nav {
+        font-size: 1.4rem;
+    }
+
+    .nav-right {
+        left: 90%;
+    }
+
+    .swiper-slide {
+        margin-right: -2rem;
+
+    }
+
+    .carousel-container {
+        overflow: hidden;
+        margin-top: 1rem;
+    }
+
+    main h1 {
+        width: 84%;
+        margin-top: 6rem;
+        font-size: 7rem;
+        font-weight: 900;
+        line-height: 7.8rem;
+    }
+
+    .work-card {
+        width: 28rem;
+        height: 48rem;
+        border-radius: 2rem;
+    }
+
+    .work-info h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .work-info p {
+        font-size: 1rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        margin-top: 50%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 87%;
+    }
+
+}
+
+@media (max-width: 860px) {
+    .nav-center {
+        display: none;
+    }
+
+    .swiper-slide {
+        margin-right: -16rem;
+
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        font-size: 1.1rem;
+        margin-top: -1rem;
+    }
+
+    .DM {
+        margin-left: -2rem;
+    }
+
+    .nav-right {
+        font-size: 1.1rem;
+        left: 86%;
+        margin-top: -1rem;
+    }
+
+    .circle {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-left: -1.5rem;
+    }
+
+    .linha {
+        height: 0.5rem;
+        margin-top: -2rem;
+    }
+
+    work-info .tags {
+        display: flex;
+        gap: 0rem;
+        /* Espaçamento entre os "botões" */
+    }
+
+    .carousel-container {
+        overflow: hidden;
+        margin-top: 2rem;
+    }
+
+    main h1 {
+        position: absolute;
+        width: 90vw;
+        margin-left: 1.5rem;
+        margin-top: 46rem;
+
+        font-size: 3.5rem;
+        font-style: normal;
+        text-align: left;
+        line-height: 4rem;
+    }
+
+    .work-card {
+        border-radius: 2rem;
+        width: 26rem;
+        height: 44rem;
+        margin-left: -10rem;
+        margin-right: -1rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+
+    }
+
+    .work-info h2 {
+        width: 45vw;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: -1rem;
+        line-height: 2rem;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1rem;
+        margin-left: -1rem;
+    }
+
+    .work-info p {
+        font-size: 1.2rem;
+        padding: 0.5rem 1.4rem;
+        border: 2px solid white;
+        border-radius: 0.5rem;
+        white-space: nowrap;
+        gap: 1rem;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 720px) {
+    .nav-center {
+        display: none;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        font-size: 1.1rem;
+        margin-top: -1rem;
+    }
+
+    .DM {
+        margin-left: -2rem;
+        color: rgb(31, 31, 31);
+    }
+
+    .nav-right {
+        font-size: 1.1rem;
+        left: 70%;
+        margin-top: -1rem;
+    }
+
+    .circle {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-left: -1.5rem;
+    }
+
+    .linha {
+        height: 0.5rem;
+        margin-top: -2rem;
+    }
+
+    work-info .tags {
+        display: flex;
+        gap: 1rem;
+        /* Espaçamento entre os "botões" */
+    }
+
+    .work-info-end h2 {
+        font-weight: 400;
+    }
+
+    .work-info-end p {
+        font-weight: 100;
+    }
+
+    .carousel-container {
+        overflow: hidden;
+        margin-top: 1rem;
+    }
+
+    main h1 {
+        position: absolute;
+        width: 90vw;
+        height: auto;
+        margin-left: 1.5rem;
+        margin-top: 42.5rem;
+
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-style: normal;
+        text-align: left;
+        line-height: 2.6rem;
+    }
+
+    .work-card {
+        border-radius: 2rem;
+        width: 22rem;
+        height: 40rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-left: -1rem;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1rem;
+        margin-left: -1rem;
+    }
+
+    .work-info p {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.4rem;
+        border: 2px solid white;
+        border-radius: 0.5rem;
+        white-space: nowrap;
+        gap: 1rem;
+        font-family: 400;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        margin-top: 0%;
+    }
+
+    #sobre-mim {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-top: 12rem;
+    }
+
+    .copyright {
+        font-size: 1.5rem; /* Diminui o tamanho da fonte em telas menores */
+    }
+
+    .copyright p {
+        font-size: 1.5rem; /* Ajusta o tamanho do texto dentro do <p> */
+    }
+
+    .habilidades-grid {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens na tela */
+    }
+
+    .habilidade-item {
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+
+    html.sr .copyright p {
+        font-size: 1.2rem !important; /* Força a fonte desejada em telas menores */
+    }
+}

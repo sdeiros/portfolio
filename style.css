@@ -1,0 +1,386 @@
+body {
+    font-family: 'Helvetica Now Display';
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+::selection {
+    background-color: rgba(224, 224, 224, 0.9);
+}
+
+/* Estilo da barra de rolagem no Chrome, Safari e Opera */
+::-webkit-scrollbar {
+    width: 0.8rem;
+    height: auto;
+}
+
+/* Estilo da parte de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: white;
+    /* Cor do fundo da barra */
+}
+
+/* Estilo do "polegar" da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background: rgba(39, 39, 39, 1);
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+/* Cor do polegar ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+
+    line-break: auto;
+    overflow-wrap: initial;
+    caret-color: rgba(39, 39, 39, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.nav-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-right {
+    position: absolute;
+    text-align: right;
+    left: 90%;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circles {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 1.3rem;
+}
+
+.circle {
+    position: absolute;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+    /* Garante que o círculo fique acima da onda */
+}
+
+.transition {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(0);
+    transition: transform 0.5s ease;
+    /* Suaviza a transição */
+    z-index: 100;
+    /* Garante que a animação fique acima do conteúdo */
+}
+
+/* Estado ativo da animação */
+.transition.active {
+    transform: scale(10);
+    /* Aumenta o tamanho do círculo */
+}
+
+.circle.black {
+    background-color: black;
+    left: -20%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid white;
+}
+
+.circle.white {
+    background-color: white;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+main h1 {
+    width: 82%;
+    margin-left: 2.5rem;
+    margin-top: 9rem;
+    overflow: hidden;
+
+    position: relative;
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    color: rgba(39, 39, 39, 1);
+    text-decoration: none;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    line-height: 7.5rem;
+}
+
+.carousel-container {
+    width: 100%;
+    margin-top: 14%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+}
+
+.swiper-container {
+    width: 100%;
+    padding: 0;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+}
+
+.swiper-slide:last-child {
+    margin-right: 0;
+}
+
+/* área de informações */
+.work-info {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.work-info h2 {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    margin: 0;
+    font-size: 1.8rem;
+    text-align: left;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.work-info .tags {
+    display: flex;
+    gap: 1rem;
+    /* Espaçamento entre os "botões" */
+}
+
+.work-info p {
+    z-index: 2;
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    /* Arredonda as bordas para parecer um botão */
+    white-space: nowrap;
+    /* Garante que o texto fique em uma linha */
+}
+
+
+.work-info-end {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+/* espaçamento inferior dos cards */
+.work-card {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 26rem;
+    height: 42rem;
+    position: relative;
+}
+
+.work-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+
+.work-card img {
+    position: relative;
+    z-index: 0;
+}
+
+.work-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.work-card:hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    transition: color 0.3s ease;
+    z-index: 10;
+    margin-top: 45%;
+}
+
+.swiper-button-prev {
+    color: white;
+}
+
+.swiper-button-prev.black {
+    color: black;
+}
+
+.botao-link {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #555;
+    font-family: 'Helvetica Now Display';
+}
+
+.h1-wrapper {
+    position: relative;
+}
+
+.word {
+    display: inline-block;
+}
+
+#sobre-mim {
+    padding: 5rem 2rem;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse */
+}
+
+.sobre-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #272727;
+}
+
+.sobre-container p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+#habilidades {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse */
+}
+
+.habilidades-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que os itens se ajustem automaticamente */
+}
+
+.habilidade-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #272727;
+}
+
+.habilidade-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+#contato h2 {
+    color: #272727;
+    font-size: 3rem;
+}
+
+#contato a {
+    color: inherit;
+    cursor: pointer;
+}
+
+#contato p {
+    font-size: 1.2rem;
+    color: #555;
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 2rem;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse */
+    width: 100vw;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    white-space: nowrap; /* Evita quebras de linha inesperadas */
+    text-overflow: ellipsis; /* Adiciona "..." se o texto for muito longo */
+}
+
+.divider {
+    border: none;
+    height: 0.1rem;
+    background-color: #272727;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
