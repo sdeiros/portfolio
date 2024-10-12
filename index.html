@@ -21,13 +21,11 @@
     <link rel="stylesheet" href="responsive.css" rel="preload" as="style">
     <link rel="stylesheet" href="darktheme.css" rel="preload" as="style">
 
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.js" defer></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <title>Davi Medeiros | Portfólio</title>
 
-    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="fav-icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="fav-icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="fav-icon/favicon-16x16.png">
@@ -91,7 +89,7 @@
 
                     <div class="swiper-slide">
                         <a href="#" class="work-card">
-                            <img src="assets/poster-tom.jpg" alt="Projeto Apocalipse" loading="lazy">
+                            <img src="assets/poster-tom.jpg" alt="Projeto Apocalipse">
                             <div class="work-info">
                                 <h2>Tom Filho</h2>
                                 <div class="tags">
@@ -164,38 +162,35 @@
 
         <section id="contato" style="padding: 5rem 2rem; text-align: center;">
             <h2>Contato</h2>
-            <p>Se você deseja entrar em contato, envie um e-mail para <a href="#" id="emailLink"><br><u>davi.medeiros.silva1@gmail.com</u></a></p>
+            <p>Se você deseja entrar em contato, envie um e-mail para <a href="#"
+                    id="emailLink"><br><u>davi.medeiros.silva1@gmail.com</u></a></p>
         </section>
-        
-        <!-- Modal -->
-        <div id="emailModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:1000; text-align:center; opacity:0; transition: opacity 0.5s;">
-            <div style="background:white; padding:2rem; margin:10% auto; width:80%; max-width:400px; border-radius:8px; position:relative; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-                <span onclick="closeModal()" style="position:absolute; top:10px; right:15px; font-size:1.6rem; cursor:pointer;">&times;</span>
-                
-                <!-- Conteúdo do modal -->
+
+        <div id="emailModal"
+            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:1000; text-align:center; opacity:0; transition: opacity 0.5s;">
+            <div
+                style="background:white; padding:2rem; margin:10% auto; width:80%; max-width:400px; border-radius:8px; position:relative; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
+                <span onclick="closeModal()"
+                    style="position:absolute; top:10px; right:15px; font-size:1.6rem; cursor:pointer;">&times;</span>
+
                 <p style="font-size:2rem;">😔</p>
                 <p>Poxa, não consegui encontrar um app de e-mail no seu dispositivo.</p>
                 <p>Mas você ainda pode enviar um e-mail pelo Gmail ou copiar o endereço abaixo:</p>
                 <p><strong>davi.medeiros.silva1@gmail.com</strong></p>
-                <u><a href="https://mail.google.com/mail/?view=cm&fs=1&to=davi.medeiros.silva1@gmail.com&su=Contato%20via%20site&body=Olá%20Davi," target="_blank">Abrir Gmail no navegador</a></u>
+                <u><a href="https://mail.google.com/mail/?view=cm&fs=1&to=davi.medeiros.silva1@gmail.com&su=Contato%20via%20site&body=Olá%20Davi,"
+                        target="_blank">Abrir Gmail no navegador</a></u>
                 <br><br>
                 <u><button class="button-email" onclick="copyEmail()">Copiar e-mail</button></u>
             </div>
         </div>
-        
-        <script>
-        
-        </script>
-        
-        
 
+    </main>
 
+    <footer>
         <div class="copyright">
             <p>&copy; 2024 Davi Medeiros. Todos os direitos reservados.</p>
         </div>
-
-
-    </main>
+    </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>

@@ -165,13 +165,11 @@ main h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -4%;
     box-sizing: border-box;
     transition: transform 0.5s ease;
 }
 
 .swiper-slide:last-child {
-    margin-right: 0;
 }
 
 /* área de informações */
@@ -219,7 +217,6 @@ main h1 {
     color: white;
     text-align: center;
     width: 100%;
-    padding: 2.5rem;
     box-sizing: border-box;
     z-index: 2;
 }

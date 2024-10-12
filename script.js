@@ -1,31 +1,36 @@
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 3,
-    spaceBetween: 0,
-    speed: 800, // Velocidade da transição mais suave (1 segundo)
+    spaceBetween: 30, // Espaçamento maior para telas grandes
+    speed: 800,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-        // quando a tela tem 1024px ou mais
-        1024: {
+        // Quando a tela tem 1440px ou mais
+        1440: {
             slidesPerView: 3,
-            spaceBetween: 0,
+            spaceBetween: 20, // Diminui o espaçamento em telas muito grandes
         },
-        // quando a tela tem entre 768px e 1023px
+        // Quando a tela tem entre 1024px e 1439px
+        1024: {
+            slidesPerView: 2.5,
+            spaceBetween: 20, // Espaçamento entre os cards em tamanhos intermediários
+        },
+        // Quando a tela tem entre 720px e 1023px
         720: {
-            slidesPerView: 1.1,
-            spaceBetween: 0,
+            slidesPerView: 1.5,
+            spaceBetween: 15, // Ajuste para manter um layout agradável
         },
-        // quando a tela tem menos de 768px
+        // Quando a tela tem menos de 720px
         0: {
             slidesPerView: 1,
-            spaceBetween: 10,
+            spaceBetween: 10, // Mais espaçamento entre cards em telas pequenas
         }
     },
     autoplay: {
         delay: 5000,
-        disableOnInteraction: false, 
+        disableOnInteraction: false,
     },
     on: {
         init: function () {
@@ -119,7 +124,7 @@ function createWaveEffect(circle) {
 document.getElementById("emailLink").addEventListener("click", function(event) {
     event.preventDefault();  
 
-    window.location.href = 'mailto:davi.medeiros.silva1@gmail.com';
+    window.location.href = 'davi.medeiros.silva1@gmail.com';
 
     setTimeout(function() {
         var modal = document.getElementById("emailModal");
