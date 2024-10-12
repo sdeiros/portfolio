@@ -245,7 +245,6 @@
     work-info .tags {
         display: flex;
         gap: 1rem;
-        /* Espaçamento entre os "botões" */
     }
 
     .work-info-end h2 {

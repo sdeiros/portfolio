@@ -196,7 +196,6 @@ main h1 {
 .work-info .tags {
     display: flex;
     gap: 1rem;
-    /* Espaçamento entre os "botões" */
 }
 
 .work-info p {
@@ -205,9 +204,7 @@ main h1 {
     padding: 0.4rem 1rem;
     border: 1px solid white;
     border-radius: 0.5rem;
-    /* Arredonda as bordas para parecer um botão */
     white-space: nowrap;
-    /* Garante que o texto fique em uma linha */
 }
 
 
@@ -221,7 +218,6 @@ main h1 {
     z-index: 2;
 }
 
-/* espaçamento inferior dos cards */
 .work-card {
     display: block;
     text-decoration: none;

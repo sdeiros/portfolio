@@ -50,6 +50,7 @@ body {
 }
 
 nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -171,9 +172,7 @@ nav a {
     padding: 0.4rem 1rem;
     border: 1px solid white;
     border-radius: 0.5rem;
-    /* Arredonda as bordas para parecer um botão */
     white-space: nowrap;
-    /* Garante que o texto fique em uma linha */
 }
 
 .work-card {
@@ -198,7 +197,6 @@ nav a {
     height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.267));
     z-index: 1;
-    /* Garante que a película fique acima da imagem */
 }
 
 .sobre {
@@ -222,14 +220,11 @@ nav a {
 .next-work {
     text-align: left;
     margin-top: 2rem;
-    /* Espaçamento acima da seção */
 }
 
 .next-work {
     text-align: left;
-    /* Alinha o texto à esquerda */
     margin-top: 2rem;
-    /* Espaçamento acima da seção */
     cursor: pointer;
 }
 
@@ -251,23 +246,16 @@ nav a {
 
 .next-work-card img {
     width: 6rem;
-    /* Define a largura da imagem */
     height: auto;
-    /* Mantém a proporção da imagem */
     margin-right: 1rem;
-    /* Espaçamento à direita da imagem */
     aspect-ratio: 1 / 1;
-    /* Garante que a imagem será quadrada */
     object-fit: cover;
-    /* Cobertura da imagem */
     margin-left: 2rem;
 }
 
 .next-work-info {
     flex: 1;
-    /* Permite que a área do título ocupe o restante do espaço */
     padding: 1rem;
-    /* Espaçamento interno */
 }
 
 .next-work-info h3 {
@@ -278,9 +266,58 @@ nav a {
     color: #fff;
 }
 
-#descricao p {
-    width: 96vw;
+#descricao {
+    padding: 2rem;
+}
+
+.content-block {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    margin: 0 auto; 
+}
+
+.content-block h1 {
+    flex: 1; 
+    margin-right: 2rem; 
+    text-align: left; 
+}
+
+.text-container {
+    flex: 1; 
+    text-align: justify;
     font-size: 1.2rem;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; 
+    padding: 2rem 2rem 26rem;
+}
+
+.image-container img {
+    width: 96vw;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.copyright {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 2rem;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse */
+    width: 100vw;
+}
+
+.copyright p {
     margin: 0;
-    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    white-space: nowrap; /* Evita quebras de linha inesperadas */
+    text-overflow: ellipsis; /* Adiciona "..." se o texto for muito longo */
 }
