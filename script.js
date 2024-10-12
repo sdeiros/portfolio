@@ -31,6 +31,7 @@ var swiper = new Swiper('.swiper-container', {
     autoplay: {
         delay: 5000,
         disableOnInteraction: false,
+        pauseOnMouseEnter: true, // Pausar autoplay ao passar o mouse
     },
     on: {
         init: function () {
@@ -116,10 +117,19 @@ function createWaveEffect(circle) {
     transitionEffect.style.top = `${y}px`;
     transitionEffect.classList.add('active');
 
-    setTimeout(() => {
-        transitionEffect.classList.remove('active');
-    }, 500); 
+    // Usando GSAP para animar o efeito
+    gsap.to(transitionEffect, {
+        scale: 1.5,
+        opacity: 0,
+        duration: 0.5,
+        ease: "power1.out",
+        onComplete: () => {
+            transitionEffect.classList.remove('active');
+            gsap.set(transitionEffect, { scale: 1, opacity: 1 }); // Reseta a escala e a opacidade
+        }
+    });
 }
+
 
 document.getElementById("emailLink").addEventListener("click", function(event) {
     event.preventDefault();  
@@ -146,8 +156,34 @@ function copyEmail() {
 
 function closeModal() {
     var modal = document.getElementById("emailModal");
-    modal.style.opacity = 0; 
-    setTimeout(function() {
+    gsap.to(modal, { opacity: 0, duration: 0.5, onComplete: () => {
         modal.style.display = 'none'; 
-    }, 500); 
+    }});
 }
+
+document.getElementById("emailLink").addEventListener("click", function(event) {
+    event.preventDefault();  
+    window.location.href = 'davi.medeiros.silva1@gmail.com';
+    setTimeout(function() {
+        var modal = document.getElementById("emailModal");
+        modal.style.display = 'block';
+        gsap.fromTo(modal, { opacity: 0 }, { opacity: 1, duration: 0.5 }); // Animação de entrada do modal
+    }, 1000); 
+});
+
+let lastScrollTop = 0; 
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        navbar.classList.add('hidden');
+    } else {
+        navbar.classList.remove('hidden');
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Para evitar valores negativos
+});
+
+
