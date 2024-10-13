@@ -29,9 +29,9 @@ var swiper = new Swiper('.swiper-container', {
         }
     },
     autoplay: {
-        delay: 5000,
+        delay: 4000,
         disableOnInteraction: false,
-        pauseOnMouseEnter: true, // Pausar autoplay ao passar o mouse
+        pauseOnMouseEnter: true, 
     },
     on: {
         init: function () {
@@ -117,7 +117,6 @@ function createWaveEffect(circle) {
     transitionEffect.style.top = `${y}px`;
     transitionEffect.classList.add('active');
 
-    // Usando GSAP para animar o efeito
     gsap.to(transitionEffect, {
         scale: 1.5,
         opacity: 0,
@@ -125,7 +124,7 @@ function createWaveEffect(circle) {
         ease: "power1.out",
         onComplete: () => {
             transitionEffect.classList.remove('active');
-            gsap.set(transitionEffect, { scale: 1, opacity: 1 }); // Reseta a escala e a opacidade
+            gsap.set(transitionEffect, { scale: 1, opacity: 1 }); 
         }
     });
 }
@@ -167,7 +166,7 @@ document.getElementById("emailLink").addEventListener("click", function(event) {
     setTimeout(function() {
         var modal = document.getElementById("emailModal");
         modal.style.display = 'block';
-        gsap.fromTo(modal, { opacity: 0 }, { opacity: 1, duration: 0.5 }); // Animação de entrada do modal
+        gsap.fromTo(modal, { opacity: 0 }, { opacity: 1, duration: 0.5 }); 
     }, 1000); 
 });
 
@@ -183,7 +182,21 @@ window.addEventListener('scroll', () => {
         navbar.classList.remove('hidden');
     }
 
-    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Para evitar valores negativos
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
 });
 
+if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+    const h1Element = document.querySelector('main h1');
+
+    if (h1Element) {
+        h1Element.style.marginTop = '4rem';
+        h1Element.style.width = '90%'; 
+    }
+
+    const workCards = document.querySelectorAll('.work-card');
+
+    workCards.forEach(card => {
+        card.style.width = '30rem';
+    });
+}
 
