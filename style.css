@@ -11,6 +11,15 @@ body {
     background-color: rgba(224, 224, 224, 0.9);
 }
 
+.firefox h1 {
+    margin-top: 4rem;
+    width: 90%;
+  }
+  
+  .firefox .work-card {
+    width: 30rem;
+  }
+
 /* Estilo da barra de rolagem no Chrome, Safari e Opera */
 ::-webkit-scrollbar {
     width: 0.8rem;

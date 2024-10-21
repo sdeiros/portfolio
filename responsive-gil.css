@@ -2,8 +2,6 @@
     nav {
         padding: 1.2rem 3rem;
         padding-bottom: 0.4rem;
-        width:75vw;
-        overflow-x: hidden;
     }
 
     .nav-center {
@@ -24,7 +22,7 @@
 
     .nav-right {
         font-size: 1.1rem;
-        left: 76%;
+        left: 50%;
         margin-top: -1rem;
     }
 
@@ -36,11 +34,10 @@
 
     .work-card {
         border-radius: 2rem;
-        width: 22rem;
-        height: 90rem;
+        width: 90%;
+        height: auto;
         overflow: hidden;
-        margin-bottom: 07rem;
-        margin-top: 2rem;
+        margin-bottom: 28rem;
     }
 
     .work-card img {
@@ -51,24 +48,19 @@
 
     }
 
-    #projeto-gil p{
-      font-size: 1rem;
-    }
-    
-    #projeto-gil h2{
-      font-size: 1.6rem;
+    #projeto-gil {
+        position: relative;
+        top: 0;
     }
 
     .sobre {
-        font-size: 1rem;
-        margin-left: 1.2rem;
-        margin-top: -6rem;
-        text-align: justify;
-        width: 88vw;
+        font-size: 1.5rem;
+        margin-top: -35rem;
+        /* Ajusta a margem */
     }
 
     .next-work-card {
-        width: 90%;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -96,7 +88,7 @@
 
     .content-block {
         flex-direction: column;
-        align-items: left;
+        align-items: center;
     }
 
     .text-container p {
@@ -107,15 +99,14 @@
     .image-container {
         flex-direction: column;
         align-items: center;
-        padding: 1rem 1rem;
     }
 
     .image-container img {
         width: 100%;
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
     }
 
     html.sr .copyright p {
-        font-size: 0.8rem !important; /* Força a fonte desejada em telas menores */
+        font-size: 0.8rem !important; 
     }
 }

@@ -31,7 +31,7 @@ var swiper = new Swiper('.swiper-container', {
     autoplay: {
         delay: 4000,
         disableOnInteraction: false,
-        pauseOnMouseEnter: true, 
+        pauseOnMouseEnter: true,
     },
     on: {
         init: function () {
@@ -68,7 +68,7 @@ function wrapWords(selector) {
     element.innerHTML = words.map(word => `<span class="word">${word}</span>`).join(' ');
 }
 
-wrapWords('.h1-wrapper h1'); 
+wrapWords('.h1-wrapper h1');
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -79,10 +79,10 @@ gsap.from(".h1-wrapper h1 .word", {
     stagger: 0.2,
     ease: "power4.inOut",
     scrollTrigger: {
-        trigger: ".h1-wrapper h1", 
-        start: "top 80%", 
-        end: "bottom 20%", 
-        toggleActions: "play none none none", 
+        trigger: ".h1-wrapper h1",
+        start: "top 80%",
+        end: "bottom 20%",
+        toggleActions: "play none none none",
     }
 });
 
@@ -109,8 +109,8 @@ function removeDarkTheme() {
 }
 
 function createWaveEffect(circle) {
-    const rect = circle.getBoundingClientRect(); 
-    const x = rect.left + rect.width / 2; 
+    const rect = circle.getBoundingClientRect();
+    const x = rect.left + rect.width / 2;
     const y = rect.top + rect.height / 2;
 
     transitionEffect.style.left = `${x}px`;
@@ -124,53 +124,47 @@ function createWaveEffect(circle) {
         ease: "power1.out",
         onComplete: () => {
             transitionEffect.classList.remove('active');
-            gsap.set(transitionEffect, { scale: 1, opacity: 1 }); 
+            gsap.set(transitionEffect, { scale: 1, opacity: 1 });
         }
     });
 }
 
+document.getElementById("emailLink").addEventListener("click", function (event) {
+    event.preventDefault();
 
-document.getElementById("emailLink").addEventListener("click", function(event) {
-    event.preventDefault();  
-
-    window.location.href = 'davi.medeiros.silva1@gmail.com';
-
-    setTimeout(function() {
-        var modal = document.getElementById("emailModal");
-        modal.style.display = 'block';
-        setTimeout(function() {
-            modal.style.opacity = 1; 
-        }, 10); 
-    }, 1000); 
+    // Exibe o modal após clicar no link
+    var modal = document.getElementById("emailModal");
+    modal.style.display = 'block';
+    gsap.fromTo(modal, { opacity: 0 }, { opacity: 1, duration: 0.5 });
 });
 
+// Função para copiar o e-mail
 function copyEmail() {
     const email = 'davi.medeiros.silva1@gmail.com';
-    navigator.clipboard.writeText(email).then(function() {
+    navigator.clipboard.writeText(email).then(function () {
         alert('E-mail copiado para a área de transferência!');
-    }, function(err) {
+    }, function (err) {
         alert('Erro ao copiar o e-mail. Tente manualmente.');
     });
 }
 
+// Função para fechar o modal
 function closeModal() {
     var modal = document.getElementById("emailModal");
-    gsap.to(modal, { opacity: 0, duration: 0.5, onComplete: () => {
-        modal.style.display = 'none'; 
-    }});
+    gsap.to(modal, {
+        opacity: 0, duration: 0.5, onComplete: () => {
+            modal.style.display = 'none';
+        }
+    });
 }
 
-document.getElementById("emailLink").addEventListener("click", function(event) {
-    event.preventDefault();  
-    window.location.href = 'davi.medeiros.silva1@gmail.com';
-    setTimeout(function() {
-        var modal = document.getElementById("emailModal");
-        modal.style.display = 'block';
-        gsap.fromTo(modal, { opacity: 0 }, { opacity: 1, duration: 0.5 }); 
-    }, 1000); 
-});
+// Função para abrir o cliente de e-mail quando o botão do modal for clicado
+function openEmail() {
+    window.location.href = 'mailto:davi.medeiros.silva1@gmail.com';
+}
 
-let lastScrollTop = 0; 
+
+let lastScrollTop = 0;
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
@@ -182,21 +176,11 @@ window.addEventListener('scroll', () => {
         navbar.classList.remove('hidden');
     }
 
-    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 });
 
 if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-    const h1Element = document.querySelector('main h1');
-
-    if (h1Element) {
-        h1Element.style.marginTop = '4rem';
-        h1Element.style.width = '90%'; 
-    }
-
-    const workCards = document.querySelectorAll('.work-card');
-
-    workCards.forEach(card => {
-        card.style.width = '30rem';
-    });
+    document.body.classList.add('firefox');
 }
+
 
