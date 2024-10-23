@@ -280,12 +280,8 @@
     }
 
     .firefox .work-card {
-        width: 22rem;
-    }
-
-    .work-card {
+        width: 14rem;
         border-radius: 2rem;
-        width: 22rem;
         height: 40rem;
         margin-left: -1rem;
         margin-right: -1rem;
