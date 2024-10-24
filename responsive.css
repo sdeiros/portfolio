@@ -100,7 +100,7 @@
   nav{
     min-height: 0.5rem;
   }
-  
+
     .nav-center {
         display: none;
     }
@@ -213,7 +213,7 @@
     padding: 1.2rem 3rem;
     padding-bottom: 0.4rem;
   }
-  
+
     .nav-center {
         display: none;
     }
@@ -265,7 +265,7 @@
         width: 90vw;
         height: auto;
         margin-left: 1.5rem;
-        margin-top: 42.5rem;
+        margin-top: 44rem;
 
         font-size: 2.5rem;
         font-weight: 600;
@@ -273,7 +273,7 @@
         text-align: left;
         line-height: 2.6rem;
     }
-    
+
     .firefox h1 {
         margin-top: 42.6rem;
         width: 90%;
@@ -283,6 +283,15 @@
         width: 20rem;
         border-radius: 2rem;
         height: 38rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        overflow: hidden;
+    }
+    
+    .work-card {
+        width: 22rem;
+        border-radius: 2rem;
+        height: 42rem;
         margin-left: -1rem;
         margin-right: -1rem;
         overflow: hidden;
