@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 3840px) {
     .nav-center {
         font-size: 5rem;
@@ -3257,4 +3258,3265 @@
     .copyright p {
         font-size: 0.7rem;
     }
+=======
+@media (max-width: 3840px) {
+    .nav-center {
+        font-size: 5rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 92vw;
+        font-size: 5rem;
+    }
+
+    .DM {
+        margin-left: 2vw;
+        font-size: 5rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+        margin-left: 2rem;
+
+    }
+
+    .circle {
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .sobre {
+        width: 96vw;
+        margin-left: 2.5rem;
+        font-size: 4rem;
+    }
+
+    .text-container {
+        flex: 1.4;
+        text-align: justify;
+        font-size: 4rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 5rem;
+    }
+
+    .next-work-card {
+        width: 97vw;
+        height: 12rem;
+        border-radius: 3rem;
+        margin-top: -4rem
+    }
+
+    .next-work-card img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .next-work h2 {
+        font-size: 6rem;
+        margin-left: 1.6rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 5rem;
+        top: 0.8rem;
+    }
+
+    .work-card {
+        width: 232rem;
+        height: 120rem;
+        border-radius: 5rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 8rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: 4rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 8px solid white;
+        border-radius: 2rem;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: -2rem;
+    }
+
+    .tags p {
+        font-size: 6rem;
+        margin-left: 3rem;
+    }
+
+    .copyright p {
+        font-size: 4.5rem;
+    }
+
+}
+
+@media (max-width: 2580px) {
+    .nav-center {
+        font-size: 2.5rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 92vw;
+        font-size: 2.5rem;
+    }
+
+    .DM {
+        margin-left: 0.5vw;
+        font-size: 2.5rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .sobre {
+        width: 96vw;
+        margin-left: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .text-container {
+        flex: 1.4;
+        text-align: justify;
+        font-size: 1.8rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        height: 78rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 3px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 2.4rem;
+        margin-left: -0.9rem;
+    }
+
+    .copyright p {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (max-width: 1930px) {
+    .nav-center {
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 92vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+        margin-left: 0;
+    }
+
+    .circle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .sobre {
+        width: 96vw;
+        margin-left: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .text-container {
+        flex: 1.4;
+        text-align: justify;
+        font-size: 1.8rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .next-work-card {
+        width: 95vw;
+        height: 4rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+
+    .next-work h2 {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .next-work-card img {
+        width: 5rem;
+        height: 5rem;
+        margin-top: -0.4rem;
+    }
+    
+    .next-work-info h3 {
+        font-size: 2rem;
+        top: -0.5rem;
+        color: #fff;
+    }
+
+    .work-card {
+        height: 56rem;
+        width: 94rem;
+        border-radius: 2rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 3px solid white;
+        border-radius: 0.5rem;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 2.4rem;
+        margin-left: -0.9rem;
+    }
+
+    .copyright p {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (max-width: 1730px) {
+    .nav-center {
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 92vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .sobre {
+        width: 96vw;
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+
+    .text-container {
+        flex: 1.4;
+        text-align: justify;
+        font-size: 1.8rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        height: 60rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 3px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 2.4rem;
+        margin-left: -0.9rem;
+    }
+
+    .copyright p {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (max-width: 1680px) {
+    .nav-center {
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 90vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.6rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.8rem;
+    }
+
+    .next-work h2 {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        margin-top: -4rem;
+        height: 56rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.4rem;
+        margin-left: -0.9rem;
+    }
+
+}
+
+@media (max-width: 1645px) {
+    .nav-center {
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 90vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.8rem;
+    }
+
+    .next-work h2 {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        margin-top: -4rem;
+        height: 48rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.4rem;
+        margin-left: -0.9rem;
+    }
+
+}
+
+@media (max-width: 1610px) {
+    .nav-center {
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 90vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.8rem;
+    }
+
+    .next-work h2 {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        margin-top: -5rem;
+        height: 38rem;
+        width: 94rem;
+        border-radius: 2rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.4rem;
+        margin-left: -0.9rem;
+    }
+
+}
+
+@media (max-width: 1580px) {
+    .nav-center {
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 90vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.8rem;
+    }
+
+    .next-work h2 {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 3px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 2.4rem;
+        margin-left: -0.9rem;
+    }
+
+}
+
+@media (max-width: 1560px) {
+    .nav-center {
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 90vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.6rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.8rem;
+    }
+
+    .next-work h2 {
+        font-size: 3rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 3px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 2.4rem;
+        margin-left: -0.9rem;
+    }
+
+    .work-card {
+        height: 51rem;
+    }
+}
+
+@media (max-width: 1520px) {
+    .nav-center {
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    .nav-right {
+        left: 90vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.8rem;
+    }
+
+    .work-card {
+        height: 43rem;
+    }
+
+    .next-work h2 {
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.5rem;
+        margin-left: -0.9rem;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        height: 46rem;
+    }
+
+}
+
+@media (max-width: 1380px) {
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.4rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        height: 38rem;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.4rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        height: 36rem;
+    }
+
+}
+
+@media (max-width: 1130px) {
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 88vw;
+        font-size: 2rem;
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.4rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        margin-top: -4rem;
+        height: 31rem;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 86vw;
+        font-size: 2rem;
+    }
+
+    .text-container {
+        flex: 1;
+        text-align: justify;
+        font-size: 1.4rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1.6rem;
+    }
+
+    .work-card {
+        margin-top: -4rem;
+        height: 30rem;
+    }
+
+}
+
+@media (max-width: 820px) {
+    .nav-center {
+        display: none;
+    }
+
+    nav {
+        max-width: 90vw;
+        padding: 0.6em 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 83vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0.5vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .work-card {
+        width: 48rem;
+        border-radius: 2rem;
+        height: 64rem;
+        margin-top: -4rem;
+        overflow: hidden;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 3px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 2.4rem;
+        margin-left: -0.9rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .text-container {
+        flex: 1.5;
+        text-align: justify;
+        font-size: 1.6rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 92vw;
+        height: 4.5rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 2rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.4rem;
+        color: #fff;
+    }
+}
+
+@media (max-width: 812px) {
+    .nav-center {
+        display: none;
+    }
+
+    nav {
+        max-width: 90vw;
+        padding: 0.6em 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 83vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0.5vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .work-card {
+        width: 48rem;
+        border-radius: 2rem;
+        height: 16rem;
+        margin-top: -4rem;
+        overflow: hidden;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        display: none;
+        border: 3px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 2.4rem;
+        margin-left: -0.9rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .text-container {
+        flex: 1.5;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 92vw;
+        height: 4.5rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 2rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.4rem;
+        color: #fff;
+    }
+}
+
+@media (max-width: 805px) {
+    .nav-center {
+        display: none;
+    }
+
+    nav {
+        max-width: 90vw;
+        padding: 0.6em 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 83vw;
+        font-size: 2rem;
+    }
+
+    .DM {
+        margin-left: 0.5vw;
+        font-size: 2rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .work-card {
+        width: 48rem;
+        border-radius: 2rem;
+        height: 64rem;
+        margin-top: -4rem;
+        overflow: hidden;
+    }
+
+    .work-info h2 {
+        width: 90vw;
+        font-size: 3.5rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 3.2rem;
+    }
+
+    .work-info p {
+        border: 3px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 2.4rem;
+        margin-left: -0.9rem;
+    }
+
+    .content-block h1 {
+        flex: 1;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .text-container {
+        flex: 1.5;
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 92vw;
+        height: 4.5rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 2rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.4rem;
+        color: #fff;
+    }
+}
+
+@media (max-width: 800px) {
+    #projeto-gil {
+        height: auto;
+    }
+
+    nav {
+        padding: 1.2rem 3rem;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 83vw;
+    }
+
+    .circle {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-left: -1.5rem;
+    }
+
+    .circle {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 0.5rem;
+    }
+
+    .circle.white {
+        margin-left: 0rem;
+    }
+
+    .work-card {
+        width: 45rem;
+        border-radius: 3rem;
+        height: 54rem;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .work-card h2 {
+        width: 70vw;
+       font-size: 3rem;
+    }
+
+    .work-info p {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .sobre {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .next-work-card {
+        width: 90vw;
+    }
+
+    #descricao {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 770px) {
+    #projeto-gil {
+        height: auto;
+    }
+
+    nav {
+        padding: 1.2rem 3rem;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 83vw;
+    }
+
+    .circle {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-left: -1.5rem;
+    }
+
+    .circle {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 0.5rem;
+    }
+
+    .circle.white {
+        margin-left: 0rem;
+    }
+
+    .work-card {
+        width: 44rem;
+        border-radius: 3rem;
+        height: 54rem;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .work-info p {
+        display: block;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .sobre {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .next-work-card {
+        width: 90vw;
+    }
+
+    #descricao {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 740px) {
+    #projeto-gil {
+        height: auto;
+    }
+
+    nav {
+        padding: 1.2rem 3rem;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 84vw;
+    }
+
+    .circle {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-left: -1.5rem;
+    }
+
+    .circle {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 0.5rem;
+    }
+
+    .work-card {
+        width: 10rem;
+        border-radius: 3rem;
+        height: 62rem;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .sobre {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .next-work-card {
+        width: 90vw;
+    }
+
+    #descricao {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 720px) {
+    #projeto-gil {
+        height: auto;
+    }
+
+    nav {
+        padding: 1.2rem 3rem;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 84vw;
+    }
+
+    .circle {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-left: -1.5rem;
+    }
+
+    .circle {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 0.5rem;
+    }
+
+    .work-card {
+        width: 40rem;
+        border-radius: 3rem;
+        height: 62rem;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 500;
+        margin-left: -0.9rem;
+        line-height: 3rem;
+    }
+
+    .work-info p {
+        display: block;
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.5rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        width: 94vw;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .next-work-card {
+        width: 90vw;
+    }
+
+    #descricao {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 670px) {
+    nav {
+        max-width: 88vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 80vw;
+    }
+
+    .DM {
+        margin-left: -2vw;
+        font-size: 2rem;
+    }
+
+    .circle {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .circle.white {
+        margin-left: -0.8rem;
+    }
+
+    .work-card {
+        width: 38rem;
+        border-radius: 3rem;
+        height: 50rem;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 500;
+        margin-left: -0.9rem;
+        line-height: 3rem;
+    }
+
+    .work-info p {
+        display: block;
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.5rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 1.2rem;
+    }
+
+    .next-work-card {
+        width: 90vw;
+    }
+
+    #descricao {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .content-block h1 {
+        margin-left: 1.5rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1rem;
+    }
+
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 610px) {
+    nav {
+        max-width: 87vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        left: 80vw;
+    }
+
+    .DM {
+        margin-left: -2vw;
+        font-size: 2rem;
+    }
+
+    .circle {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .circle.white {
+        margin-left: -0.8rem;
+    }
+
+    .work-card {
+        width: 36rem;
+        border-radius: 3rem;
+        height: 50rem;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    px .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 500;
+        margin-left: -0.9rem;
+        line-height: 3rem;
+    }
+
+    .work-info p {
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.5rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 1.2rem;
+    }
+
+    .next-work-card {
+        width: 90vw;
+    }
+
+    #descricao {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .content-block h1 {
+        margin-left: 1.5rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1rem;
+    }
+
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 582px) {
+    nav {
+        max-width: 86vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 84vw;
+        font-size: 1.5rem;
+    }
+
+    .DM {
+        margin-left: -4vw;
+        font-size: 1.5rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .work-card {
+        width: 33rem;
+        border-radius: 2rem;
+        height: 41rem;
+        margin-top: 1.5rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 500;
+        margin-left: -0.9rem;
+        line-height: 3rem;
+    }
+
+    .work-info p {
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.5rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+
+    .next-work {
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 89vw;
+        height: 3.5rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.6rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.4rem;
+        color: #fff;
+    }
+
+    .content-block h1 {
+        margin-left: 1.6rem;
+        font-size: 1.6rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+    .copyright p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 575px) {
+    nav {
+        max-width: 86vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 84vw;
+        font-size: 1.5rem;
+    }
+
+    .DM {
+        margin-left: -4vw;
+        font-size: 1.5rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .work-card {
+        width: 33rem;
+        border-radius: 2rem;
+        height: 44rem;
+        margin-top: 1.5rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 500;
+        margin-left: -0.9rem;
+        line-height: 3rem;
+    }
+
+    .work-info p {
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.5rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+
+    .next-work {
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 89vw;
+        height: 3.5rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.6rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.4rem;
+        color: #fff;
+    }
+
+    .content-block h1 {
+        margin-left: 1.6rem;
+        font-size: 1.6rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+    .copyright p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 545px) {
+    nav {
+        max-width: 86vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 82vw;
+        font-size: 1.5rem;
+    }
+
+    .DM {
+        margin-left: -4vw;
+        font-size: 1.5rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .work-card {
+        width: 31rem;
+        border-radius: 2rem;
+        height: 44rem;
+        margin-top: 1.5rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 2.5rem;
+        text-align: left;
+        font-weight: 500;
+        margin-left: -0.9rem;
+        line-height: 3rem;
+    }
+
+    .work-info p {
+        border: 2px solid white;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.5rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+
+    .next-work {
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 89vw;
+        height: 3.5rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-left: 0.1rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.6rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.4rem;
+        color: #fff;
+    }
+
+    .content-block h1 {
+        margin-left: 1.6rem;
+        font-size: 1.6rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+    .copyright p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        max-width: 83vw;
+        width: 80vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 80.5vw;
+        font-size: 1.3rem;
+    }
+
+    .DM {
+        margin-left: -4vw;
+        font-size: 1.3rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .work-card {
+        width: 27rem;
+        border-radius: 2rem;
+        height: 41rem;
+        margin-top: 1.5rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 1.8rem;
+        text-align: left;
+        font-weight: 300;
+        margin-left: -0.9rem;
+        line-height: 1.6rem;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+
+    .next-work {
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 85vw;
+        height: 3rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 4rem;
+        height: 4rem;
+        margin-left: -0.4rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.4rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.5rem;
+        color: #fff;
+    }
+
+    .content-block h1 {
+        margin-left: 1.6rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+    .copyright p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 468px) {
+    nav {
+        width: 83vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 82vw;
+        font-size: 1.3rem;
+    }
+
+    .work-card {
+        width: 26rem;
+        border-radius: 2rem;
+        height: 41rem;
+        margin-top: 1.5rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 1.8rem;
+        text-align: left;
+        font-weight: 300;
+        margin-left: -0.9rem;
+        line-height: 1.6rem;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+
+    .next-work {
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 86vw;
+        height: 3rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 4rem;
+        height: 4rem;
+        margin-left: -0.4rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.4rem;
+        margin-left: -1.4rem;
+        position: relative;
+        top: -0.8rem;
+        color: #fff;
+    }
+
+    .content-block h1 {
+        margin-left: 1.6rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+    .copyright p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 430px) {
+    nav {
+        max-width: 88vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 76%;
+        font-size: 1.3rem;
+    }
+
+    .DM {
+        margin-left: -4vw;
+        font-size: 1.3rem;
+    }
+
+    .circles {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 8rem;
+    }
+
+    .circle.white {
+        margin-left: -1rem;
+    }
+
+    .work-card {
+        max-width: 25rem;
+        width: 20rem;
+        border-radius: 2rem;
+        height: 41rem;
+        margin-top: 1.5rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 1.8rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 1.8rem;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.1rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        max-width: 92vw;
+    }
+
+    .next-work {
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 85vw;
+        height: 3rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 4rem;
+        height: 4rem;
+        margin-left: -0.4rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.4rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.7rem;
+        color: #fff;
+    }
+
+    .content-block h1 {
+        margin-left: 1.6rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+    .copyright {
+        max-width: 100vw;
+    }
+
+    .copyright p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 428px) {
+    nav {
+        width: 81vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .work-card {
+        width: 24rem;
+        border-radius: 2rem;
+        height: 41rem;
+        margin-top: 1.5rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .work-info h2 {
+        width: 85vw;
+        font-size: 1.8rem;
+        text-align: left;
+        font-weight: 400;
+        margin-left: -0.9rem;
+        line-height: 1.8rem;
+    }
+
+    .work-info .tags {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .tags p {
+        font-size: 1.1rem;
+        margin-left: -0.9rem;
+    }
+
+    .sobre {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        max-width: 92vw;
+    }
+
+    .next-work {
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-card {
+        display: flex;
+        margin: 0 auto;
+        width: 85vw;
+        height: 3rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: rgb(22, 1, 138);
+        position: relative;
+    }
+
+    .next-work-card img {
+        width: 4rem;
+        height: 4rem;
+        margin-left: -0.4rem;
+        margin-top: -0.5rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.4rem;
+        margin-left: -1.2rem;
+        position: relative;
+        top: -0.7rem;
+        color: #fff;
+    }
+
+    .content-block h1 {
+        margin-left: 1.6rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+    .copyright {
+        max-width: 100vw;
+    }
+
+    .copyright p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    nav {
+        max-width: 79vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 78vw;
+        font-size: 1.3rem;
+    }
+
+    .DM {
+        margin-left: -4vw;
+        font-size: 1.3rem;
+    }
+
+    .circles {
+        width: 20px;
+        height: 20px;
+    }
+
+    .circle {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-right: 0.3rem;
+    }
+
+    .circle.white {
+        margin-left: -0.7rem;
+    }
+
+    .work-card {
+        width: 22rem;
+        border-radius: 2rem;
+        height: 35rem;
+        margin-top: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sobre {
+        font-size: 0.9rem;
+        margin-top: -1rem;
+    }
+
+    .next-work-card {
+        width: 85vw;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.4rem;
+        top: -0.6rem;
+    }
+
+    #descricao {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .copyright p {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 384px) {
+    nav {
+        max-width: 79vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 76vw;
+        font-size: 1.3rem;
+    }
+
+    .DM {
+        margin-left: -4vw;
+        font-size: 1.3rem;
+    }
+
+    .circles {
+        width: 20px;
+        height: 20px;
+    }
+
+    .circle {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-right: 0.3rem;
+    }
+
+    .circle.white {
+        margin-left: -0.7rem;
+    }
+
+    .work-card {
+        width: 21rem;
+        border-radius: 1.5rem;
+        height: 43rem;
+        margin-top: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        overflow: hidden;
+    }
+
+    .work-info h2 {
+        width: 80vw;
+    font-size: 1.5rem;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sobre {
+        font-size: 0.9rem;
+        margin-top: -1rem;
+    }
+
+    .next-work-card {
+        width: 85vw;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.4rem;
+        top: -0.6rem;
+    }
+
+    #descricao {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .copyright p {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 375px) {
+    nav {
+        max-width: 78vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 78vw;
+        font-size: 1.3rem;
+    }
+
+    .DM {
+        margin-left: -7vw;
+        font-size: 1.3rem;
+    }
+
+    .circles {
+        width: 20px;
+        height: 20px;
+        margin-left: 0;
+    }
+
+    .circle {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.3rem;
+    }
+
+    .circle.white {
+        margin-left: -1.2rem;
+    }
+
+    .work-card {
+        width: 21rem;
+        border-radius: 2rem;
+        height: 36rem;
+        margin-top: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sobre {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+
+    .next-work-card {
+        width: 85vw;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.4rem;
+        top: -0.6rem;
+    }
+
+    #descricao {
+        padding: 0.7rem;
+        font-size: 0.8rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .copyright p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 347px) {
+    nav {
+        max-width: 70vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 64vw;
+        font-size: 1.3rem;
+    }
+
+    .DM {
+        margin-left: -7vw;
+        font-size: 1.3rem;
+    }
+
+    .circles {
+        width: 20px;
+        height: 20px;
+    }
+
+    .circle {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.3rem;
+    }
+
+    .circle.white {
+        margin-left: -1.2rem;
+    }
+
+    .work-card {
+        width: 21rem;
+        border-radius: 2rem;
+        height: 36rem;
+        margin-top: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        overflow: hidden;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sobre {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+
+    .next-work-card {
+        width: 85vw;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.4rem;
+        top: -0.6rem;
+    }
+
+    #descricao {
+        padding: 0.7rem;
+        font-size: 0.8rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .copyright p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 320px) {
+    nav {
+        max-width: 74vw;
+        padding: 0.5rem 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-right {
+        left: 78vw;
+        font-size: 1rem;
+    }
+
+    .DM {
+        margin-left: -9vw;
+        font-size: 1rem;
+    }
+
+    .circles {
+        width: 20px;
+        height: 20px;
+    }
+
+    .circle {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.3rem;
+    }
+
+    .circle.white {
+        margin-left: -1.2rem;
+    }
+
+    .work-card {
+        width: 18rem;
+        border-radius: 1.5rem;
+        height: 29rem;
+    }
+
+    .work-info h2 {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .work-info p {
+        font-size: 1.1rem;
+        border: 2px solid white;
+    }
+
+    .work-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sobre {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+
+    .next-work-card {
+        width: 80vw;
+        height: 2rem;
+    }
+
+    .next-work h2 {
+        font-size: 1.3rem;
+        margin-left: 1rem;
+    }
+
+    .next-work-info h3 {
+        font-size: 1.2rem;
+        top: -1rem;
+    }
+
+    .next-work-card img {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    #descricao {
+        padding: 0.7rem;
+        font-size: 0.8rem;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .text-container {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .image-container img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .copyright p {
+        font-size: 0.7rem;
+    }
+>>>>>>> 31c718f (Add files via upload)
 }
