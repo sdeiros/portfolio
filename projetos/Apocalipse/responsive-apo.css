@@ -2286,6 +2286,10 @@
     .copyright p {
         font-size: 1.2rem;
     }
+
+    .social-links {
+        gap: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
