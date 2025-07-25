@@ -1,0 +1,337 @@
+@media (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .back-btn img {
+    width: 6vw;
+    height: auto;
+    margin-left: -1.5rem;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .work-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Centraliza textos dentro do container */
+    gap: 1.5rem;
+  }
+
+  .work-title {
+    font-size: 2.9rem;
+    line-height: 2.6rem;
+    margin-left: 0.5rem !important;
+    width: 95vw !important;
+    text-align: left;
+  }
+
+  .work-description p {
+    width: 95vw !important;
+    text-align: left;
+    margin-left: 0.6rem !important;
+    margin-right: 1rem !important;
+    margin-top: 1.5rem !important;
+    font-size: 1rem;
+  }
+
+  h4 {
+    width: 95vw !important;
+    text-align: left;
+    margin-left: 0.5rem !important;
+    margin-top: 1.5rem !important;
+    font-size: 0.8rem;
+  }
+
+  .work-img {
+    width: 92vw;
+    margin: 0 auto !important;
+  }
+
+  section {
+    width: 100%;
+    margin-bottom: 0rem !important;
+    height: auto;
+    margin-right: 0rem;
+  }
+
+  .gallery-header-top {
+    position: relative;
+    padding-top: 0rem;
+    /* Espaço superior para o logo */
+    padding-bottom: 0rem;
+    /* Espaço inferior para a linha de pesquisa */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* Empilha o conteúdo verticalmente */
+    align-items: center;
+    /* Centraliza o bloco de conteúdo */
+    gap: 0.5rem;
+    /* Espaçamento entre o logo e a linha de pesquisa */
+  }
+
+  .gallery-header-top .gallery-container {
+    /* Este container agora gerencia a linha do logo e a linha da seta/pesquisa */
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que o logo ocupe 100% e force a quebra de linha */
+    justify-content: center;
+    /* Centraliza os itens na linha atual */
+    align-items: center;
+    padding: 0rem;
+    /* Preenchimento horizontal para a linha de pesquisa */
+  }
+
+  .header-left-group {
+    /* Faz com que os filhos (botão de voltar e logo) se comportem como filhos diretos de gallery-container */
+    display: contents;
+  }
+
+  .logo {
+    order: -2;
+    /* Garante que o logo seja o primeiro item na ordem flex */
+    width: 100%;
+    /* Faz o logo ocupar 100% da largura, forçando a quebra de linha */
+    text-align: center;
+    /* Centraliza o texto do logo */
+    margin-bottom: 0rem;
+    /* Espaço abaixo do logo */
+    font-size: 1.5rem;
+    z-index: 2;
+    margin-right: 0;
+    /* Remove margem extra */
+  }
+
+  .back-button {
+    order: -1;
+    /* Coloca a seta antes da barra de pesquisa na nova linha */
+    margin-right: 0rem;
+    /* Espaço entre a seta e a barra de pesquisa */
+    z-index: 2;
+  }
+
+  .search-input-wrapper {
+    flex-grow: 1;
+    max-width: 85%;
+    /* Mantém a largura da barra de pesquisa */
+    margin: 0;
+    /* Remove margens anteriores */
+    background-color: rgb(233, 233, 233);
+  }
+
+  /* Ajusta o padding da seção de filtro para compensar a nova altura do cabeçalho */
+  .filter-section {
+    padding-top: 0rem;
+    /* Empurra para baixo do cabeçalho */
+  }
+
+  .header-right-group {
+    display: none;
+  }
+
+  .header-title {
+    font-size: 1.5rem;
+    margin: 0rem;
+  }
+
+  .filter-section .filter-container {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    border-radius: 0;
+    gap: 2rem;
+  }
+
+  .masonry-item {
+    width: calc(50% - 10px);
+  }
+
+  .footer-copy {
+    font-size: 0.92rem;
+  }
+
+  .gallery-header .gallery-container {
+    padding: 1rem 0rem 0rem 0rem;
+    margin-top: 0rem;
+  }
+
+  .filter-section {
+    padding: 0rem 1rem 0rem;
+  }
+
+  .filter-btn {
+    font-size: 1.15rem;
+    padding: 0rem 0;
+  }
+
+  .filter-btn.active {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .featured-section {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    background: #fffcf8;
+    margin-bottom: 0rem;
+  }
+
+  .featured-title {
+    margin-bottom: 0.4rem;
+  }
+
+  .featured-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .featured-card {
+    flex: 0 0 90%;
+    scroll-snap-align: start;
+    border-radius: 0.5rem;
+  }
+
+  .featured-cards::-webkit-scrollbar {
+    display: none;
+  }
+
+  .featured-cards {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .modal-content {
+    flex-direction: column;
+    width: 95vw;
+    height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 1rem;
+    padding: 0;
+    transform: translate(-50%, -50%) scale(1) !important;
+  }
+
+  .modal-media {
+    padding: 1rem;
+    width: 100%;
+    max-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-media img,
+  .modal-media video {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .modal-info {
+    padding: 1rem 1.5rem;
+    flex: none;
+  }
+
+  .modal-close {
+    top: 0.5rem;
+    right: 0.5rem;
+    background: #ffffff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+
+  .gallery-btn {
+    position: static;
+    transform: none;
+    margin-top: 1.5rem;
+  }
+
+  .work-img-container {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Mobile Grande (480px - 599px) - Ajustes finos */
+@media (max-width: 599px) {
+  .search-input-wrapper {
+    padding: 0.5rem 0.8rem;
+    /* Padding menor */
+  }
+
+  .search-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.6rem;
+  }
+
+  .search-input {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Médio (375px - 479px) - Ajustes finos */
+@media (max-width: 479px) {
+  .search-input-wrapper {
+    padding: 0.4rem 0.7rem;
+  }
+
+  .search-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+  }
+
+  .search-input {
+    font-size: 0.9rem;
+  }
+
+  .filter-btn {
+    font-size: 1.05rem;
+  }
+}
+
+/* iPhone SE e Mobile Pequeno (até 374px) - Ajustes finos */
+@media (max-width: 374px) {
+  .search-input-wrapper {
+    padding: 0.3rem 0.6rem;
+  }
+
+  .search-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 0.4rem;
+  }
+
+  .search-input {
+    font-size: 0.85rem;
+  }
+
+  .filter-btn {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* Blur no fundo quando modal está aberto */
+body.modal-open {
+  overflow: hidden;
+}
+
+body.modal-open .gallery-screen,
+body.modal-open .intro-screen {
+  filter: blur(5px);
+  transition: filter 0.4s ease;
+}

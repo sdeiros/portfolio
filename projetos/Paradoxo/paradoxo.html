@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Charset e Viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- SEO básico -->
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="description"
+        content="Davi Medeiros - Paradoxo Casa Atelier. Design Gráfico, Arte Visual e Social Media para coletivo cultural no Rio de Janeiro.">
+    <meta name="keywords"
+        content="Davi Medeiros, design gráfico, arte visual, social media, Diogo Santos, Hugo Bernabé, Paradoxo, Paradoxo Casa Atelier, Paradoxo Atelier, Usina, Tijuca, Rio de Janeiro, Cláudia Lyrio, Manny Bernabé, Renan Henrique, Projeto Apocalipse, coletivo cultural">
+    <meta name="author" content="Davi Medeiros">
+
+    <!-- SEO para redes sociais -->
+    <meta property="og:title" content="Paradoxo Casa Atelier | Davi Medeiros">
+    <meta property="og:description"
+        content="Design Gráfico, Arte Visual e Social Media para coletivo cultural no Rio de Janeiro.">
+    <meta property="og:image"
+        content="https://res.cloudinary.com/ddpvact5z/image/upload/v1753412907/Untitled_design_5_faqvun.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sdeiros.github.io/portfolio/projetos/Paradoxo/paradoxo.html">
+
+    <!-- DNS prefetch + Performance -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//images.pexels.com">
+    <link rel="dns-prefetch" href="//sample-videos.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- PWA e Mobile Enhancement -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Paradoxo Casa Atelier">
+
+    <!-- Fontes -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style-poxo.css">
+    <link rel="stylesheet" href="responsive-paradoxo.css">
+
+    <!-- Preloads estratégicos -->
+    <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
+    <title>Paradoxo Casa Atelier | Davi Medeiros</title>
+</head>
+
+<body>
+    <div>
+        <!-- TELA INICIAL - Layout igual aos outros projetos -->
+        <section class="intro-screen" id="introScreen">
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a href="../../index.html" class="back-btn" aria-label="Voltar para os projetos">
+                        <img src="https://img.icons8.com/?size=100&id=40217&format=png&color=303030" alt="Voltar" />
+                    </a>
+                </div>
+
+                <a href="../../index.html" class="back-btn" aria-label="Voltar para os projetos">
+                    <div class="nav-right">Projetos</div>
+                </a>
+
+            </nav>
+
+            <main>
+                <div class="work-container">
+                    <div class="work-text">
+                        <h1 class="work-title">Paradoxo Casa Atelier</h1>
+                        <div class="work-description">
+                            <p>
+                                Atuo como designer gráfico, artista visual e social media no Paradoxo Casa Atelier,
+                                coletivo independente que promove exposições, oficinas e ações culturais no Rio de
+                                Janeiro.
+                                <br><br>
+                                Crio pôsteres em A3 para presentear artistas, artes digitais para redes sociais e vídeos
+                                que registram as atividades do espaço. Também alimento o perfil do coletivo, buscando
+                                comunicar com clareza e identidade visual consistente.
+                                <br><br>
+                                Além da criação gráfica, desenvolvo experimentações em lambe-lambe, que em breve serão
+                                levadas às ruas, ampliando o projeto para o espaço urbano. Tenho uma primeira exposição
+                                individual agendada no Parque das Ruínas, fruto de uma parceria com a Secretaria
+                                Municipal de Cultura.
+                            </p>
+                            <h4>Davi Medeiros | Designer Gráfico, Artista Visual & Social Media • 2025<BR>
+                                Paradoxo Casa Atelier, Rio de Janeiro</h4>
+                        </div>
+                    </div>
+
+                    <div class="work-img-container">
+
+                        <!-- Botão para ver galeria -->
+                        <button class="gallery-btn" onclick="console.log('Botão clicado!'); showGallery();">
+                            <span>Ver Todos os Trabalhos</span>
+                            <span class="arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <!-- TELA DA GALERIA - Layout Masonry -->
+        <section class="gallery-screen" id="galleryScreen">
+            <!-- Header Sticky -->
+            <header class="gallery-header">
+                <div class="gallery-header-top">
+                    <div class="gallery-container">
+                        <!-- Seção esquerda: Botão voltar e Logo -->
+                        <div class="header-left-group">
+                            <button class="back-button" onclick="showIntro()" aria-label="Voltar para a tela inicial">
+                                <img src="https://img.icons8.com/?size=100&id=40217&format=png&color=303030"
+                                    alt="Voltar" />
+                            </button>
+                            <div class="logo">PARADOXO®</div>
+                        </div>
+
+                        <!-- Barra de Pesquisa Centralizada -->
+                        <div class="search-input-wrapper">
+                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8" />
+                                <path d="m21 21-4.35-4.35" />
+                            </svg>
+                            <input type="text" placeholder="Pesquisar trabalhos..." class="search-input"
+                                id="searchInput" />
+                            <button class="search-clear" id="searchClear" style="display: none;"
+                                aria-label="Limpar pesquisa">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18" />
+                                    <line x1="6" y1="6" x2="18" y2="18" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Filtros -->
+                <div class="filter-section">
+                    <div class="gallery-container">
+                        <div class="filter-container">
+                            <button class="filter-btn active" data-filter="all">Todos</button>
+                            <button class="filter-btn" data-filter="poster">Pôsteres A3</button>
+                            <button class="filter-btn" data-filter="social">Social Media</button>
+                            <button class="filter-btn" data-filter="video">Audiovisual</button>
+                            <button class="filter-btn" data-filter="experimental">Experimental</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Cards em Destaque - MOVIDO PARA FORA DO HEADER -->
+            <section class="featured-section">
+                <div class="gallery-container">
+                    <h2 class="featured-title">Trabalhos em Destaque</h2>
+                    <div class="featured-cards" id="featuredCards">
+                        <!-- Cards inseridos via JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <main class="gallery-main">
+                <!-- Galeria Masonry -->
+                <div class="masonry-grid" id="masonryGrid">
+                    <!-- Conteúdo inserido via JavaScript -->
+                </div>
+            </main>
+
+            <footer class="footer">
+                <div class="footer-copy">
+                    © 2025 Davi Medeiros. Todos os direitos reservados.
+                </div>
+            </footer>
+        </section>
+
+        <!-- Modal para visualizar trabalhos -->
+        <div class="modal" id="imageModal">
+            <div class="modal-backdrop" onclick="closeModal()"></div>
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+                <div class="modal-media" id="modalMedia">
+                    <!-- Conteúdo inserido via JavaScript -->
+                </div>
+                <div class="modal-info">
+                    <h3 class="modal-title"></h3>
+                    <p class="modal-description"></p>
+                    <div class="modal-meta">
+                        <span class="modal-category"></span>
+                        <span class="modal-date"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+        <script src="script.js" defer></script>
+    </div>
+</body>
+
+</html>

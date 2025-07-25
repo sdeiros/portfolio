@@ -1,0 +1,95 @@
+@media (max-width: 810px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .back-btn img {
+        width: 6vw;
+        height: auto;
+        margin-left: -1.5rem;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .work-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* Centraliza textos dentro do container */
+        gap: 1.5rem;
+    }
+
+    .work-title {
+        font-size: 2.9rem;
+        line-height: 2.6rem;
+        margin-left: 0.5rem !important;
+        width: 95vw !important;
+        text-align: left;
+    }
+
+    .work-description p {
+        width: 95vw !important;
+        text-align: left;
+        margin-left: 0.6rem !important;
+        margin-right: 1rem !important;
+        margin-top: 1.5rem !important;
+        font-size: 1rem;
+    }
+
+    h4 {
+        width: 95vw !important;
+        text-align: left;
+        margin-left: 0.5rem !important;
+        margin-top: 1.5rem !important;
+        font-size: 0.8rem;
+    }
+
+    .work-img {
+        width: 92vw;
+        margin: 0 auto !important;
+    }
+
+    .gif {
+        width: 100vw !important;
+        padding: 0 !important;
+        margin-top: 1rem !important;
+        margin-bottom: 0rem !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+    }
+
+    .gif2 {
+        width: 100vw !important;
+        padding: 0 !important;
+        margin-top: -0.2rem !important;
+        margin-bottom: 0rem !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gif3 {
+        width: 100vw !important;
+        padding: 0 !important;
+        margin-top: -0.19rem !important;
+        margin-bottom: 0rem !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    section {
+        width: 100%;
+        margin-bottom: 0rem !important;
+        height: auto;
+        margin-right: 0rem;
+    }
+}

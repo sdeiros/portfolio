@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background-color: #FFFCF8;
+}
+
+::selection {
+    background-color: #07cf00;
+    color: #ffffff;
+}
+
+nav {
+    width: 100vw;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    background-color: #FFFCF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    color: #303030;
+    font-family: 'Lora', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.back-btn img {
+    width: 2vw;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.2s ease;
+}
+
+.back-btn:hover img {
+    transform: translateX(-0.2vw);
+    opacity: 0.8;
+}
+
+.work-title {
+    width: 50vw;
+    font-size: 4.5em;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    color: #dd0000;
+    font-family: 'Lora', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.06em;
+    line-height: 4rem;
+}
+
+.work-description p {
+    width: 45vw;
+    font-size: 1.44rem;
+    margin-left: 2rem;
+    margin-top: 1.1rem;
+    color: #303030;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 0.9rem;
+    margin-left: 2rem;
+    margin-top: 1.6rem;
+    color: rgb(126, 126, 126);
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 0rem;
+}
+
+.work-img {
+    width: 32vw;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.gif {
+    width: 100vw;
+    height: auto;
+    margin-top: 2rem;
+
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.gif2 {
+    width: 100vw;
+    height: auto;
+    margin-top: -2rem;
+}
+
+.gif3 {
+    width: 100vw;
+    height: auto;
+    margin-bottom: none;
+    margin-top: -2rem;
+}
+
+section {
+    width: 100vw;
+    margin-bottom: none;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    padding: 1.5rem;
+    margin: 0;
+    background-color: #940405;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    margin-top: -1rem; /* se isso for proposital, ok! */
+}
+
+.footer-copy {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+}
+
+
+@media (max-width: 600px) {
+    .footer-copy {
+        font-size: 0.92rem;
+    }
+}

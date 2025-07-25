@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="description"
+        content="Detalhes sobre a Premiação Honoris Causa para Gilberto Gil - projeto de design gráfico por Davi Medeiros.">
+    <meta name="keywords"
+        content="Davi Medeiros, design gráfico, Gilberto Gil, premiação, projeto, CTE, UERJ, pôster, arte, Camilla Pitanga, Camila Pitanga, Camila Pinttanga, Camilla Pittanga, Gil, Honoris Causa, CTE UERJ">
+    <meta name="author" content="Davi Medeiros">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
+    <meta property="og:title" content="Davi Medeiros | Designer e Artista" />
+    <meta property="og:description"
+        content="Pôster criado para a cerimônia de Honoris Causa da UERJ ao Gilberto Gil — estudo de design gráfico e experiência audiovisual." />
+    <meta property="og:image"
+        content="https://res.cloudinary.com/ddpvact5z/image/upload/v1753411539/Captura_de_tela_24-7-2025_234525_sdeiros.github.io_f4aver.jpg" />
+    <meta name="og:url" content="https://sdeiros.github.io/portfolio/projetos/Gil/gil.html" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Davi Medeiros | Designer e Artista" />
+    <meta name="twitter:description"
+        content="Pôster criado para a cerimônia de Honoris Causa da UERJ ao Gilberto Gil — estudo de design gráfico e experiência audiovisual." />
+    <meta name="twitter:image"
+        content="https://res.cloudinary.com/ddpvact5z/image/upload/v1753411539/Captura_de_tela_24-7-2025_234525_sdeiros.github.io_f4aver.jpg" />
+    <meta name="twitter:url" content="https://sdeiros.github.io/portfolio/projetos/Gil/gil.html" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style-gil.css" rel="preload" as="style">
+    <link rel="stylesheet" href="responsive-gil.css" rel="preload" as="style">
+
+    <title>Premiação Honoris Causa para Gilberto Gil | Davi Medeiros</title>
+</head>
+
+<body data-scroll-container>
+    <div data-scroll-section>
+
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="../../index.html" class="back-btn" aria-label="Voltar para os projetos">
+                    <img src="https://img.icons8.com/?size=100&id=40217&format=png&color=303030" alt="Voltar" />
+                </a>
+            </div>
+
+            <a href="../../index.html" class="back-btn" aria-label="Voltar para os projetos">
+                <div class="nav-right">Projetos</div>
+            </a>
+        </nav>
+
+        <main>
+            <div class="work-container">
+                <div class="work-text">
+                    <h1 class="work-title">Premiação Honoris Causa para Gilberto Gil</h1>
+                    <div class="work-description">
+                        <p>
+                            Para a cerimônia de entrega do título de Honoris Causa, realizado pela UERJ, ao icônico
+                            cantor e
+                            compositor Gilberto Gil, desenvolvi um pôster que capturava a essência de sua contribuição
+                            para
+                            a
+                            cultura brasileira. O projeto foi concebido inicialmente para divulgação oficial do evento,
+                            mas
+                            acabou
+                            sendo utilizado como um estudo de design gráfico.
+                            <br><br>
+                            Minha abordagem criativa incluiu a escolha de cores, tipografia e composição visual que
+                            refletiam a
+                            relevância do evento e a trajetória de Gilberto Gil.
+                            <br><br>
+                            Mesmo não tendo sido utilizado oficialmente, o pôster tornou-se um importante estudo para
+                            mim.
+                            Além
+                            disso, participei do evento colaborando na organização e na transmissão audiovisual ao vivo
+                            pelo
+                            YouTube, o que me proporcionou uma experiência enriquecedora tanto em termos de design
+                            quanto na
+                            parte
+                            técnica de eventos e audiovisual.
+                        </p>
+                        <h4>Davi Medeiros | Poster & Designer Gráfico • 2024<BR>Universidade do Estado do Rio de
+                            Janeiro, UERJ</h4>
+                    </div>
+                </div>
+
+                <img class="work-img" src="GilbertoGil.jpg" alt="Pôster de Gilberto Gil">
+
+                <section class="container">
+                    <img class="gif"
+                        src="https://res.cloudinary.com/ddpvact5z/image/upload/v1747412350/Gilberto-Gil_kqhw53.gif"
+                        alt="Pôster de Gilberto Gil">
+                </section>
+
+                <footer class="footer">
+                    <div class="footer-copy">
+                        © 2025 Davi Medeiros. Todos os direitos reservados.
+                    </div>
+                </footer>
+
+        </main>
+
+        <script src="script.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+        <script>
+            const scroll = new LocomotiveScroll({
+                el: document.querySelector('[data-scroll-container]'),
+                smooth: true,
+            });
+
+            const gallery = document.querySelector('.gallery');
+
+            scroll.on('scroll', (args) => {
+                const scrollY = args.scroll.y;
+                const scrollSpeed = scrollY * 0.4;
+                if (gallery) {
+                    gallery.style.transform = `translateX(-${scrollSpeed}px)`;
+                }
+            });
+        </script>
+
+        <script>
+            window.addEventListener('load', function () {
+                setTimeout(() => {
+                    scroll.update();
+                }, 1500); // dá tempo suficiente pros vídeos e imagens se assentarem
+            });
+        </script>
+    </div>
+    </div>
+</body>

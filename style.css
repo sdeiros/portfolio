@@ -1,0 +1,449 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background: #fffcf8;
+}
+
+::selection {
+  background-color: #7c8c99;
+  color: #ffffff;
+}
+
+/* Navbar Responsiva */
+.navbar {
+  font-family: "Lora", serif;
+  width: 100%;
+  height: 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  background-color: #fffcf8;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0 1rem;
+  z-index: 100;
+}
+
+.nav-left,
+.nav-center,
+.nav-right {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-left {
+  text-align: left;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+/* Seção Intro Responsiva */
+.intro-section {
+  min-height: 92vh;
+  width: 100vw;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 2rem;
+  padding-top: 0rem;
+}
+
+.intro-content {
+  width: 100%;
+}
+
+.intro-section h1 {
+  position: absolute;
+  font-size: clamp(2.5rem, 8vw, 5.4rem);
+  line-height: 5.2rem;
+  font-weight: 400;
+  margin-top: 4rem;
+  font-family: "Lora", sans-serif;
+  width: 50%;
+}
+
+.intro {
+  max-width: 100%;
+}
+
+.intro-description {
+  position: absolute;
+  color: #777;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  margin-left: 66rem;
+  padding-top: 24rem;
+  width: 24%;
+}
+
+.hover-link {
+  color: #777;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  transition: color 0.8s, text-decoration 0.8s;
+  margin-left: 66rem;
+  padding-top: 28rem;
+  cursor: pointer;
+  width: 600px;
+}
+
+.hover-link:hover {
+  color: #1b244e;
+  text-decoration: underline;
+}
+
+/* Galeria Horizontal Responsiva */
+.scroll-wrapper {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gallery {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: max-content;
+  will-change: transform;
+  gap: clamp(1rem, 2vw, 2rem);
+  padding: 0 clamp(1rem, 4vw, 4rem);
+  align-items: center;
+  background: #fffcf8;
+}
+
+.gallery .conteudo {
+  width: clamp(250px, 30vw, 400px);
+  height: 100vh;
+  object-fit: cover;
+  border-radius: 3rem;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+/* Seção Sobre Responsiva */
+.sobre {
+  padding: clamp(2rem, 5vw, 4rem);
+  max-width: 75rem;
+  margin: auto;
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-family: "Lora", serif;
+  text-align: center;
+  color: #444;
+  line-height: 1.6;
+}
+
+.sobre span {
+  display: block;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  margin-top: 2rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* Projetos Responsivos */
+.projetos h2 {
+  text-align: center;
+  font-family: "Lora", serif;
+  margin: 0rem 0;
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-weight: bold;
+}
+
+.carousel-container {
+  width: 100vw;
+  height: clamp(60vh, 95vh, 108vh);
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* CORREÇÃO COMPLETA PARA O GRADIENTE */
+.card {
+  flex: 0 0 33.3333%;
+  padding: clamp(0.5rem, 1vw, 0.8rem);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 3rem;
+  overflow: visible;
+}
+
+/* Wrapper interno para conter tudo */
+.card-inner {
+  position: absolute;
+  top: clamp(0.5rem, 1vw, 0.8rem);
+  left: clamp(0.5rem, 1vw, 0.8rem);
+  right: clamp(0.5rem, 1vw, 0.8rem);
+  bottom: clamp(0.5rem, 1vw, 0.8rem);
+  border-radius: 3rem;
+  overflow: hidden;
+  width: calc(100% - 2 * clamp(0.5rem, 1vw, 0.8rem));
+  height: calc(100% - 2 * clamp(0.5rem, 1vw, 0.8rem));
+}
+
+/* Estilizar a imagem dentro do wrapper */
+.card-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+/* Gradiente como um elemento separado dentro do wrapper */
+.card-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.164) 0%,
+    rgba(0, 0, 0, 0.11) 25%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Remover pseudo-elementos antigos */
+.card::after,
+.card::before {
+  display: none;
+}
+
+/* Ajustar a posição das informações do card */
+.card-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  width: 100%;
+  padding: clamp(1rem, 4vw, 2.5rem);
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.card-info h3 {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  margin: 0 0 1rem 0rem;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Rubik", serif;
+}
+
+.card-info .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  padding: clamp(0.3rem, 1vw, 0.4rem) clamp(0.6rem, 2vw, 1rem);
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
+  color: white;
+  font-family: "Rubik", serif;
+  z-index: 2;
+}
+
+/* Botões do Carousel */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  cursor: pointer;
+  z-index: 20;
+  padding: clamp(0.3rem, 1vw, 0.5rem) clamp(0.6rem, 2vw, 1rem);
+  border-radius: 1rem;
+  transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-btn.prev {
+  left: clamp(0.5rem, 2vw, 1rem);
+}
+
+.carousel-btn.next {
+  right: clamp(0.5rem, 2vw, 1rem);
+}
+
+/* Modal - APARECE ONDE O USUÁRIO ESTÁ */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999999;
+}
+
+.modal.show {
+  display: block !important;
+}
+
+.modal-content {
+  /* Posicionamento será feito via JavaScript */
+  width: 480px;
+  max-width: 90vw;
+  height: auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  /* Remover borda debug */
+  border: none;
+}
+
+.modal-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333;
+  font-family: "Lora", serif;
+}
+
+.modal-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+  font-family: "Rubik", sans-serif;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #999;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000001;
+  transition: all 0.2s ease;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #333;
+  background: rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  padding: 0.5rem 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-copy {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  color: #888;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-family: "Rubik", serif;
+  font-weight: 400;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Ajustes para mobile */
+@media (max-width: 767px) {
+  .card {
+    border-radius: 2.5rem;
+  }
+  
+  .card-inner {
+    border-radius: 2.5rem;
+  }
+}
