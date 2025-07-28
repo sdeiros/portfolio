@@ -101,12 +101,13 @@ h4 {
   justify-content: center;
   /* centraliza verticalmente */
   text-align: center;
-  padding: 2rem;
+  padding: 0rem;
   gap: 2rem;
   max-width: 900px;
   margin: 0 auto;
-  min-height: calc(100vh - 8vh);
+  min-height: calc(100vh - 20vh);
   /* altura da tela menos o navbar */
+  margin-top: 0rem;
 }
 
 .work-text,
@@ -132,7 +133,6 @@ h4 {
   font-family: "Inter", sans-serif;
   box-shadow: 0 5px 15px rgba(34, 139, 34, 0.3);
   position: absolute;
-  bottom: -1rem;
   left: 50%;
   transform: translateX(-50%);
 }

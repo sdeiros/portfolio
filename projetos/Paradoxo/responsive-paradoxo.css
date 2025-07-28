@@ -17,15 +17,14 @@
 
   .work-container {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    /* Centraliza textos dentro do container */
     gap: 1.5rem;
+    min-height: calc(100vh - 100vh);
+
   }
 
   .work-title {
-    font-size: 2.9rem;
-    line-height: 2.6rem;
+    font-size: 3.2rem;
+    line-height: 2.8rem;
     margin-left: 0.5rem !important;
     width: 95vw !important;
     text-align: left;
@@ -280,6 +279,13 @@
   .search-input {
     font-size: 0.95rem;
   }
+
+  .work-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: calc(100vh - 100vh);
+
+  }
 }
 
 /* Mobile Médio (375px - 479px) - Ajustes finos */
@@ -301,6 +307,13 @@
   .filter-btn {
     font-size: 1.05rem;
   }
+
+  .work-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: calc(100vh - 100vh);
+
+  }
 }
 
 /* iPhone SE e Mobile Pequeno (até 374px) - Ajustes finos */
@@ -321,6 +334,13 @@
 
   .filter-btn {
     font-size: 0.95rem;
+  }
+
+  .work-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: calc(100vh - 100vh);
+
   }
 }
 
