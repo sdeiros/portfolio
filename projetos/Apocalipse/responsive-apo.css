@@ -60,7 +60,7 @@
     }
 
     .gif,
-    .gif2,
+    .gif2, a,
     .gif3 {
         display: block;
         width: 100vw !important;

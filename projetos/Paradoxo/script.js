@@ -13,7 +13,7 @@ const portfolioItems = [
   {
     id: 2,
     title: "Projeto Apocalipse",
-    description: "Material audiovisual criado como expansão do Projeto Apocalipse. Com estética experimental e narrativa simbólica, o vídeo atua como manifesto visual do conceito, ampliando sua presença para além do impresso.",
+    description: "Material audiovisual criado como expansão do Projeto Apocalipse. Com estética experimental e narrativa simbólica, o vídeo atua como manifesto visual do conceito, ampliando sua presença para além do impresso.<BR><a href='https://sdeiros.github.io/portfolio/projetos/Apocalipse/apocalipse.html' target='_blank' rel='noopener noreferrer'>Veja Completo aqui</a>.",
     category: "video",
     type: "video",
     media: "https://res.cloudinary.com/ddpvact5z/video/upload/f_auto,q_auto/v1753402928/APOCALIPSE_n9iikt.mp4",
@@ -126,7 +126,7 @@ const portfolioItems = [
   {
     id: 21,
     title: "Projeto Apocalipse — Variação I",
-    description: "Primeira variação visual do cartaz do Projeto Apocalipse, com composição intensa e uso marcante do contraste para transmitir urgência e colapso.",
+    description: "Primeira variação visual do cartaz do Projeto Apocalipse, com composição intensa e uso marcante do contraste para transmitir urgência e colapso.<BR><a href='https://sdeiros.github.io/portfolio/projetos/Apocalipse/apocalipse.html' target='_blank' rel='noopener noreferrer'>Veja Completo aqui</a>.",
     category: "poster",
     type: "image",
     media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753392200/Captura_de_tela_24-7-2025_18236__phwun8.jpg",
@@ -136,7 +136,7 @@ const portfolioItems = [
   {
     id: 22,
     title: "Projeto Apocalipse — Variação II",
-    description: "Segunda variação do cartaz do Projeto Apocalipse, com ênfase na tipografia e elementos gráficos descentrados, evocando ruído, falha e desorientação.",
+    description: "Segunda variação do cartaz do Projeto Apocalipse, com ênfase na tipografia e elementos gráficos descentrados, evocando ruído, falha e desorientação.<BR><a href='https://sdeiros.github.io/portfolio/projetos/Apocalipse/apocalipse.html' target='_blank' rel='noopener noreferrer'>Veja Completo aqui</a>.",
     category: "poster",
     type: "image",
     media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753392006/Captura_de_tela_24-7-2025_181911__wj3vnr.jpg",
@@ -146,7 +146,7 @@ const portfolioItems = [
   {
     id: 23,
     title: "Projeto Apocalipse — Variação III",
-    description: "Terceira abordagem visual do cartaz do Projeto Apocalipse, com uma estética mais limpa e espaçada, convidando a uma leitura contemplativa do fim e da reconstrução.",
+    description: "Terceira abordagem visual do cartaz do Projeto Apocalipse, com uma estética mais limpa e espaçada, convidando a uma leitura contemplativa do fim e da reconstrução.<BR><a href='https://sdeiros.github.io/portfolio/projetos/Apocalipse/apocalipse.html' target='_blank' rel='noopener noreferrer'>Veja Completo aqui</a>.",
     category: "poster",
     type: "image",
     media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753391593/Captura_de_tela_24-7-2025_181144__mddbgn.jpg",
@@ -156,7 +156,7 @@ const portfolioItems = [
   {
     id: 24,
     title: "Projeto Apocalipse — Post para Redes",
-    description: "Versão adaptada do Projeto Apocalipse para circulação nas redes sociais. O design verticalizado e de alto contraste busca impacto imediato no feed, mantendo a identidade visual crítica da série.",
+    description: "Versão adaptada do Projeto Apocalipse para circulação nas redes sociais. O design verticalizado e de alto contraste busca impacto imediato no feed, mantendo a identidade visual crítica da série.<BR><a href='https://sdeiros.github.io/portfolio/projetos/Apocalipse/apocalipse.html' target='_blank' rel='noopener noreferrer'>Veja Completo aqui</a>.",
     category: "social",
     type: "image",
     media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753393405/WhatsApp_Image_2025-07-24_at_18.43.02_d7r1rn.jpg",
@@ -206,7 +206,7 @@ const portfolioItems = [
   {
     id: 31,
     title: "Projeto Apocalipse — Animação para Redes",
-    description: "Versão animada do cartaz do Projeto Apocalipse, desenvolvida para circulação em redes sociais. A movimentação gráfica amplia o impacto visual da proposta e reforça a urgência do conceito em ambientes digitais.",
+    description: "Versão animada do cartaz do Projeto Apocalipse, desenvolvida para circulação em redes sociais. A movimentação gráfica amplia o impacto visual da proposta e reforça a urgência do conceito em ambientes digitais.<BR><a href='https://sdeiros.github.io/portfolio/projetos/Apocalipse/apocalipse.html' target='_blank' rel='noopener noreferrer'>Veja Completo aqui</a>.",
     category: "social",
     type: "video",
     media: "https://res.cloudinary.com/ddpvact5z/video/upload/f_auto,q_auto/v1747413525/VIDEO_2_jdby44.mp4",
@@ -216,7 +216,7 @@ const portfolioItems = [
   {
     id: 32,
     title: "Projeto Apocalipse — Variação IV",
-    description: "Quarta variação do cartaz do Projeto Apocalipse, com nova abordagem tipográfica e composição centralizada. Essa versão busca reforçar a força simbólica do título e ampliar a legibilidade em ambientes urbanos.",
+    description: "Quarta variação do cartaz do Projeto Apocalipse, com nova abordagem tipográfica e composição centralizada. Essa versão busca reforçar a força simbólica do título e ampliar a legibilidade em ambientes urbanos.<BR><a href='https://sdeiros.github.io/portfolio/projetos/Apocalipse/apocalipse.html' target='_blank' rel='noopener noreferrer'>Veja Completo aqui</a>.",
     category: "poster",
     type: "image",
     media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753405340/Untitled_design_4_gifmg3.png",
@@ -226,7 +226,7 @@ const portfolioItems = [
   {
     id: 33,
     title: "Projeto Apocalipse — Teaser Animado",
-    description: "Teaser em formato GIF criado como parte da campanha do Projeto Apocalipse. Com estética glitch e televisiva, a peça instiga o público e antecipa o clima distópico da série.",
+    description: "Teaser em formato GIF criado como parte da campanha do Projeto Apocalipse. Com estética glitch e televisiva, a peça instiga o público e antecipa o clima distópico da série.<BR><a href='https://sdeiros.github.io/portfolio/projetos/Apocalipse/apocalipse.html' target='_blank' rel='noopener noreferrer'>Veja Completo aqui</a>.",
     category: "social",
     type: "image",
     media: "https://sdeiros.github.io/portofc/assets/Apocalipse/apocalipsetv.gif",
@@ -242,7 +242,7 @@ const portfolioItems = [
     media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753406000/Paradoxo_Casa_Atelier_tem_o_prazer_em_convid%C3%A1-los_para_um_momento_muito_especial_de_sua_hist%C3%B3ri_ffbakv.jpg",
     date: "Fevereiro 2025",
     featured: false
-  }
+  }, 
 
 ]
 
@@ -546,7 +546,7 @@ function openModal(item) {
 
   modalMedia.innerHTML = mediaElement;
   modalTitle.textContent = item.title;
-  modalDescription.textContent = item.description;
+  modalDescription.innerHTML = item.description;
   modalCategory.textContent = getCategoryName(item.category);
   modalDate.textContent = item.date;
 
@@ -659,3 +659,4 @@ console.log("Elements check:", {
   searchInput: !!searchInput,
   featuredCards: !!featuredCards,
 })
+
