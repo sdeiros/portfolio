@@ -6,7 +6,7 @@ const portfolioItems = [
     description: "Vídeo teaser criado para divulgar o evento 'Pesadelo', que acontecerá em setembro no Paradoxo Casa Atelier. A estética onírica e inquietante antecipa o clima do evento, propondo uma imersão visual e sensorial.",
     category: "experimental",
     type: "video",
-    media: "https://res.cloudinary.com/ddpvact5z/video/upload/v1753402915/Untitled_design_4_i9zaqz.mp4",
+    media: "https://res.cloudinary.com/ddpvact5z/video/upload/f_auto,q_auto/v1753402915/Untitled_design_4_i9zaqz.mp4",
     date: "Julho 2025",
     featured: false
   },
@@ -16,7 +16,7 @@ const portfolioItems = [
     description: "Material audiovisual criado como expansão do Projeto Apocalipse. Com estética experimental e narrativa simbólica, o vídeo atua como manifesto visual do conceito, ampliando sua presença para além do impresso.",
     category: "video",
     type: "video",
-    media: "https://res.cloudinary.com/ddpvact5z/video/upload/v1753402928/APOCALIPSE_n9iikt.mp4",
+    media: "https://res.cloudinary.com/ddpvact5z/video/upload/f_auto,q_auto/v1753402928/APOCALIPSE_n9iikt.mp4",
     date: "Julho 2024",
     featured: false
   },
@@ -26,7 +26,7 @@ const portfolioItems = [
     description: "Post desenvolvido para divulgação do evento Karaokê Cantere no Paradoxo Casa Atelier. A estética retrô e a tipografia vibrante evocam a energia divertida da noite.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753372248/karaoke3_kd8mnm.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753372248/karaoke3_kd8mnm.jpg",
     date: "Novembro 2024",
     featured: false
   },
@@ -36,7 +36,7 @@ const portfolioItems = [
     description: "Post para a divulgação da exposição O Ser e o Indivíduo, realizada no Paradoxo Casa Atelier.",
     category: "social",
     type: "video",
-    media: "https://res.cloudinary.com/ddpvact5z/video/upload/v1753371683/Composi%C3%A7%C3%A3o_1_1_h4bb0i.mp4",
+    media: "https://res.cloudinary.com/ddpvact5z/video/upload/f_auto,q_auto/v1753371683/Composi%C3%A7%C3%A3o_1_1_h4bb0i.mp4",
     date: "Julho 2025",
     featured: true
   },
@@ -46,7 +46,7 @@ const portfolioItems = [
     description: "Poster em A3 para a divulgação da exposição O Ser e o Indivíduo, realizada no Paradoxo Casa Atelier.",
     category: "poster",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753372000/Captura_de_tela_24-7-2025_124617__pld4oc.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753372000/Captura_de_tela_24-7-2025_124617__pld4oc.jpg",
     date: "Outubro 2024",
     featured: false
   },
@@ -57,7 +57,7 @@ const portfolioItems = [
       "Post para a divulgação da turma do curso de Xilografia na UERJ, ministrada pelo artista, professor e montador Hugo Bernabé, realizada no Paradoxo Casa Atelier.",
     category: "social",
     type: "video",
-    media: "https://res.cloudinary.com/ddpvact5z/video/upload/v1753369596/Gravuras_FIM__1_lwxft1.mp4",
+    media: "https://res.cloudinary.com/ddpvact5z/video/upload/f_auto,q_auto/v1753369596/Gravuras_FIM__1_lwxft1.mp4",
     date: "Novembro 2024",
     featured: false
   },
@@ -67,7 +67,7 @@ const portfolioItems = [
     description: "Exposção do artista Yago Chedid, realizada no Paradoxo Casa Atelier.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753371430/final1_l5o5gb.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753371430/final1_l5o5gb.jpg",
     date: "Março 2025",
     featured: false
 
@@ -78,7 +78,7 @@ const portfolioItems = [
     description: "Versão alternativa do material de divulgação da exposição 'Retratos do Tempo Bom', do artista Yago Chedid. A arte explora novas composições mantendo a estética sensível da mostra.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753372936/final2_qqxue0.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753372936/final2_qqxue0.jpg",
     date: "Março 2025",
     featured: false
   },
@@ -88,7 +88,7 @@ const portfolioItems = [
     description: "Template modular criado para facilitar a divulgação recorrente dos karaokês no Paradoxo. Mantém uma identidade visual coesa, com possibilidade de adaptação para diferentes datas e atrações.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753372719/karaoke-tamplate_sxklim.png",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753372719/karaoke-tamplate_sxklim.png",
     date: "Julho 2025",
     featured: false
   },
@@ -98,7 +98,7 @@ const portfolioItems = [
     description: "Arte criada para divulgar a Oficina de Livro de Artista, ministrada pela artista Malu Mattos, no Paradoxo nas redes sociais. Com visual minimalista e informativo, o design reforça a identidade artesanal e afetiva da experiência.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753372532/oficina-redes_yseqzr.png",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753372532/oficina-redes_yseqzr.png",
     date: "Maio 2025",
     featured: false
   },
@@ -109,7 +109,7 @@ const portfolioItems = [
       "Post para a divulgação da primeira chamada aberta realizada no Paradoxo Casa Atelier.",
     category: "social",
     type: "video",
-    media: "https://res.cloudinary.com/ddpvact5z/video/upload/Untitled_design_3_ns7qnr.mp4",
+    media: "https://res.cloudinary.com/ddpvact5z/video/upload/f_auto,q_auto/Untitled_design_3_ns7qnr.mp4",
     date: "Julho 2025",
     featured: true,
   },
@@ -119,7 +119,7 @@ const portfolioItems = [
     description: "Versão impressa da divulgação do curso de Xilografia na UERJ, ministrado por Hugo Bernabé. O pôster em formato A3 adapta a composição original para circulação física, mantendo o equilíbrio entre o toque acadêmico e o experimental.",
     category: "poster",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753373358/Untitled_design_2_zl4nbg.png",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753373358/Untitled_design_2_zl4nbg.png",
     date: "Novembro 2024",
     featured: false
   },
@@ -129,7 +129,7 @@ const portfolioItems = [
     description: "Primeira variação visual do cartaz do Projeto Apocalipse, com composição intensa e uso marcante do contraste para transmitir urgência e colapso.",
     category: "poster",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753392200/Captura_de_tela_24-7-2025_18236__phwun8.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753392200/Captura_de_tela_24-7-2025_18236__phwun8.jpg",
     date: "Julho 2024",
     featured: false
   },
@@ -139,7 +139,7 @@ const portfolioItems = [
     description: "Segunda variação do cartaz do Projeto Apocalipse, com ênfase na tipografia e elementos gráficos descentrados, evocando ruído, falha e desorientação.",
     category: "poster",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753392006/Captura_de_tela_24-7-2025_181911__wj3vnr.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753392006/Captura_de_tela_24-7-2025_181911__wj3vnr.jpg",
     date: "Julho 2024",
     featured: false
   },
@@ -149,7 +149,7 @@ const portfolioItems = [
     description: "Terceira abordagem visual do cartaz do Projeto Apocalipse, com uma estética mais limpa e espaçada, convidando a uma leitura contemplativa do fim e da reconstrução.",
     category: "poster",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753391593/Captura_de_tela_24-7-2025_181144__mddbgn.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753391593/Captura_de_tela_24-7-2025_181144__mddbgn.jpg",
     date: "Julho 2024",
     featured: false
   },
@@ -159,7 +159,7 @@ const portfolioItems = [
     description: "Versão adaptada do Projeto Apocalipse para circulação nas redes sociais. O design verticalizado e de alto contraste busca impacto imediato no feed, mantendo a identidade visual crítica da série.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753393405/WhatsApp_Image_2025-07-24_at_18.43.02_d7r1rn.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753393405/WhatsApp_Image_2025-07-24_at_18.43.02_d7r1rn.jpg",
     date: "Julho 2024",
     featured: false
   },
@@ -169,7 +169,7 @@ const portfolioItems = [
     description: "Peça desenvolvida para divulgar a participação do Paradoxo Casa Atelier em uma exposição no Donna Gastrobar. A arte mescla sofisticação e identidade visual autoral para comunicar a presença do coletivo em um novo espaço.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753393581/DONNA_kolmnq.png",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753393581/DONNA_kolmnq.png",
     date: "Julho 2025",
     featured: false
   },
@@ -179,7 +179,7 @@ const portfolioItems = [
     description: "Peça de divulgação para a exposição 'Retratos Urbanos', com curadoria do Paradoxo Casa Atelier. A mostra reúne fotografias que capturam o cotidiano das ruas com olhar sensível e poético, propondo novas leituras sobre o espaço urbano.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753404267/fotografiasfim1_on90rq.png",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753404267/fotografiasfim1_on90rq.png",
     date: "Abril 2025",
     featured: false
   },
@@ -189,7 +189,7 @@ const portfolioItems = [
     description: "Segunda versão do material de divulgação da exposição 'Retratos Urbanos'. A arte mantém o caráter documental da série, adaptando a composição para outros formatos de circulação e ampliando o alcance da mostra.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753404395/fotografiasfim2_dgjlb3.png",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753404395/fotografiasfim2_dgjlb3.png",
     date: "Abril 2025",
     featured: false
   },
@@ -199,7 +199,7 @@ const portfolioItems = [
     description: "Versão impressa em A3 criada para divulgação física da exposição 'Retratos Urbanos'. O pôster amplia o alcance da mostra para o espaço público, mantendo a linguagem visual sensível e urbana da série.",
     category: "poster",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753404987/Untitled_design_3_i4xvfy.png",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753404987/Untitled_design_3_i4xvfy.png",
     date: "Abril 2025",
     featured: false
   },
@@ -209,7 +209,7 @@ const portfolioItems = [
     description: "Versão animada do cartaz do Projeto Apocalipse, desenvolvida para circulação em redes sociais. A movimentação gráfica amplia o impacto visual da proposta e reforça a urgência do conceito em ambientes digitais.",
     category: "social",
     type: "video",
-    media: "https://res.cloudinary.com/ddpvact5z/video/upload/v1747413525/VIDEO_2_jdby44.mp4",
+    media: "https://res.cloudinary.com/ddpvact5z/video/upload/f_auto,q_auto/v1747413525/VIDEO_2_jdby44.mp4",
     date: "Julho 2024",
     featured: false
   },
@@ -219,7 +219,7 @@ const portfolioItems = [
     description: "Quarta variação do cartaz do Projeto Apocalipse, com nova abordagem tipográfica e composição centralizada. Essa versão busca reforçar a força simbólica do título e ampliar a legibilidade em ambientes urbanos.",
     category: "poster",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753405340/Untitled_design_4_gifmg3.png",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753405340/Untitled_design_4_gifmg3.png",
     date: "Julho 2024",
     featured: false
   },
@@ -239,13 +239,10 @@ const portfolioItems = [
     description: "Convite institucional do Paradoxo Casa Atelier para um marco importante em sua história: a realização simultânea das exposições individuais 'A Própria Consequência', de @gapo.o, e 'Corposições', de @chedid_tattoo. A arte celebra a força do coletivo e o diálogo entre corpo, espaço e expressão urbana.",
     category: "social",
     type: "image",
-    media: "https://res.cloudinary.com/ddpvact5z/image/upload/v1753406000/Paradoxo_Casa_Atelier_tem_o_prazer_em_convid%C3%A1-los_para_um_momento_muito_especial_de_sua_hist%C3%B3ri_ffbakv.jpg",
+    media: "https://res.cloudinary.com/ddpvact5z/image/upload/f_auto,q_auto/v1753406000/Paradoxo_Casa_Atelier_tem_o_prazer_em_convid%C3%A1-los_para_um_momento_muito_especial_de_sua_hist%C3%B3ri_ffbakv.jpg",
     date: "Fevereiro 2025",
     featured: false
   }
-
-
-
 
 ]
 
@@ -461,7 +458,12 @@ function renderGallery(filter = "all", searchTerm = "") {
       applyFilters(filter, searchTerm)
       iso.layout()
       console.log("Isotope initialized and layout forced.")
+
+      // 🔽 OCULTA O LOADING
+      const loadingOverlay = document.getElementById('loadingOverlay')
+      if (loadingOverlay) loadingOverlay.style.display = 'none'
     })
+
   } else {
     // Renderizações subsequentes
     applyFilters(filter, searchTerm)
@@ -529,55 +531,67 @@ searchClear.addEventListener("click", () => {
 
 // Função para abrir modal
 function openModal(item) {
-  if (isModalOpen) return
+  if (isModalOpen) return;
 
-  isModalOpen = true
+  isModalOpen = true;
 
-  let mediaElement
+  let mediaElement;
   if (item.type === "video") {
     mediaElement = `<video controls autoplay>
       <source src="${item.media}" type="video/mp4">
-  </video>`
+    </video>`;
   } else {
-    mediaElement = `<img src="${item.media}" alt="${item.title}">`
+    mediaElement = `<img src="${item.media}" alt="${item.title}">`;
   }
 
-  modalMedia.innerHTML = mediaElement
-  modalTitle.textContent = item.title
-  modalDescription.textContent = item.description
-  modalCategory.textContent = getCategoryName(item.category)
-  modalDate.textContent = item.date
+  modalMedia.innerHTML = mediaElement;
+  modalTitle.textContent = item.title;
+  modalDescription.textContent = item.description;
+  modalCategory.textContent = getCategoryName(item.category);
+  modalDate.textContent = item.date;
 
-  document.body.classList.add("modal-open")
-  modal.style.display = "block"
+  document.body.classList.add("modal-open");
+  modal.style.display = "block";
 
-  modal.offsetHeight
-
+  modal.offsetHeight;
   setTimeout(() => {
-    modal.classList.add("show")
-  }, 10)
+    modal.classList.add("show");
+  }, 10);
 
-  const url = new URL(window.location)
-  url.searchParams.set("projeto", item.id)
-  history.pushState(null, "", url)
+  const url = new URL(window.location);
+  url.searchParams.set("projeto", item.id);
+  history.pushState(null, "", url);
+
+  // ⛔ Pausar vídeos da galeria e destaque
+  document.querySelectorAll('.masonry-grid video, .featured-card video').forEach((vid) => {
+    vid.pause();
+  });
 }
+
 
 // Função para fechar modal
 function closeModal() {
-  if (!isModalOpen) return
+  if (!isModalOpen) return;
 
-  modal.classList.remove("show")
+  modal.classList.remove("show");
 
   setTimeout(() => {
-    modal.style.display = "none"
-    document.body.classList.remove("modal-open")
-    isModalOpen = false
+    modal.style.display = "none";
+    document.body.classList.remove("modal-open");
 
-    const url = new URL(window.location)
-    url.searchParams.delete("projeto")
-    history.pushState(null, "", url)
-  }, 400)
+    // ▶️ Retomar vídeos da galeria e destaque
+    document.querySelectorAll('.masonry-grid video, .featured-card video').forEach((vid) => {
+      vid.play();
+    });
+
+    isModalOpen = false;
+
+    const url = new URL(window.location);
+    url.searchParams.delete("projeto");
+    history.pushState(null, "", url);
+  }, 400);
 }
+
 
 // Função para abrir projeto via URL
 function openProjectFromURL() {
